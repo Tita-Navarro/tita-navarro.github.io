@@ -11,6 +11,12 @@ const AboutMe =()=>(
             <div className='AboutMe-video'>
                 <video src='/'></video>
             </div>
+            <div className='AboutMe-TechSkills'>
+                <h3>Technical Skills</h3>
+            </div>
+            <div className='AboutMe-SoftSkills'>
+                <h3>Soft Skills</h3>
+            </div>
         </div>
     </div>
 )

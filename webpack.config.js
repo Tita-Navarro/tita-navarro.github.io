@@ -1,7 +1,7 @@
 const path = require('path');
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 //const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
-
+const CSSloader = require('css-loader');
 module.exports = {
   entry: './src/index.js',
   output: {
@@ -29,7 +29,6 @@ module.exports = {
         ]
       },
       { test: /\.css$/, use: 'css-loader' },
-      { test: /\.ts$/, use: 'ts-loader' }
     ]
   },
   plugins: [
