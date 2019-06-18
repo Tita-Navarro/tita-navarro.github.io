@@ -1,0 +1,68 @@
+.Hobbies{
+    background-image: url(../images/mickey-background4.jpg);
+    background-size: auto;
+    height: 75rem;
+}
+.Hobbies-container{
+    background: rgba(0,0,0,0.75);
+    height: 75rem;
+    margin:0.5rem;
+}
+
+.Hobbies-title{
+    color:#ffffff;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.icon-colorb{
+    color: rgb(231, 131, 49);
+    font-size: 5rem;
+    margin-top: 1rem;
+    margin-right: 6rem;
+}
+
+.icon-colors{
+    color:rgb(19, 113, 236);
+    font-size: 5rem;
+    margin-left: 5rem;
+    margin-right: 7rem;
+}
+
+.icon-colorbook{
+    color:rgb(42, 202, 56);
+    font-size: 5rem;
+    margin-right: 7rem;
+}
+
+.icon-colorgame{
+    font-size: 5rem;
+    color: rgb(139, 70, 243);
+    margin-right: 7rem;
+}
+
+.icon-colorfit{
+    font-size: 5rem;
+    color: #ffffff;
+    margin-right:7rem;
+}
+
+.icon-colorm{
+    font-size: 5rem;
+    color: rgb(247, 38, 38);
+    margin-right: 7rem;
+}
+
+.Hobbies-icon{
+    margin-left: 10rem;
+}
+
+.icon-colortree{
+    font-size: 5rem;
+    color: rgb(66, 218, 79);
+}
+
+.icon-colormic{
+    font-size: 5rem;
+    color: rgb(222, 245, 20);
+}

@@ -1,0 +1,16 @@
+.Portfolio{
+    background-image: url(../images/mickey-background3.jpg);
+    background-size: auto;
+    height: 75rem;
+}
+.Portfolio-container{
+    background: rgba(0,0,0,0.75);
+    height: 75rem;
+    margin:0.5rem;
+}
+
+.Portfolio-title{
+    color:#ffffff;
+    text-align: center;
+    font-size: 5rem;
+}

@@ -1,0 +1,16 @@
+.ContactMe{
+    background-image: url(../images/mickey-background5.jpg);
+    background-size: auto;
+    height: 70rem;
+}
+.ContactMe-container{
+    background: rgba(0,0,0,0.75);
+    height: 75rem;
+    margin:0.5rem;
+}
+
+.ContactMe-title{
+    color:#ffffff;
+    text-align: center;
+    font-size: 5rem;
+}

@@ -1,0 +1,13 @@
+.About{
+    background-image: url(../images/mickey-background.jpg);
+    background-size: cover;
+    height:75rem;
+}
+.About-container{
+    background: rgba(0,0,0,0.75);
+    height: 75rem;
+    margin:0.5rem;
+}
+.About-info{
+    color: #ffffff;
+}
