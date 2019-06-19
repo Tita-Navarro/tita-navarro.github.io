@@ -1,7 +1,8 @@
 .Portfolio{
     background-image: url(../images/mickey-background3.jpg);
-    background-size: auto;
-    height: 75rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 .Portfolio-container{
     background: rgba(0,0,0,0.75);

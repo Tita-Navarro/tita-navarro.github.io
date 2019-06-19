@@ -1,11 +1,11 @@
 .Hobbies{
     background-image: url(../images/mickey-background4.jpg);
     background-size: auto;
-    height: 75rem;
+    height: 65rem;
 }
 .Hobbies-container{
     background: rgba(0,0,0,0.75);
-    height: 75rem;
+    height: 65rem;
     margin:0.5rem;
 }
 

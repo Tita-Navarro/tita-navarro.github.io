@@ -11,3 +11,27 @@
 .About-info{
     color: #ffffff;
 }
+.About-iconskill{
+    font-size: 3rem;
+    margin-right: 4rem;
+}
+
+.icon-color{
+    color:#ffffff;
+}
+
+.icon-move{
+    margin-left: 4rem;
+}
+
+.tech{
+    text-align: center;
+}
+
+.About-container-icon{
+    background: rgba(0,0,0,0.25);
+}
+
+.title{
+    text-align: center;
+}

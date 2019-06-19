@@ -8,7 +8,8 @@ const AboutMe =()=>{
             <div className='About-container div-bg'>
                 <div className='About-brand'>
                     <br/> <br/> <br/>
-                    <img src={require('../images/Castelnav.png')} alt='brand' className='mx-auto d-block img-fluid'/>
+                    <img src={require('../images/Castelnav.png')} alt='brand' className='mx-auto d-block img-fluid'/><br/>
+                    <h2 className='About-info title'>- FrontEnd UX Marketer -</h2>
                 </div>
                 <br/> <br/>
                 <div className="container AboutMe">
@@ -18,9 +19,8 @@ const AboutMe =()=>{
                         </div>
                         <div className="col-md">
                            <br/> <br/>
-                           <h3 className='About-info'>Martha M. Navarro</h3>
-                           <h3 className='About-info'>Alias: Tita</h3>
-                           <h3 className='About-info'>FrontEnd UX Marketer</h3>
+                           <h2 className='About-info'>Martha M. Navarro</h2>
+                           <h2 className='About-info'>Alias: Tita</h2>
                         </div>
                         <div className="col-md">
                             One of three columns
@@ -29,7 +29,7 @@ const AboutMe =()=>{
                     <br/>
                     <div className='About-Skills container'>
                         <div className='row'>
-                            <div className='col'>
+                            <div className='col About-container-icon'>
                                 <h2 className='About-info'>Soft Skills</h2>
                                 <h5 className='About-info'>Teamwork</h5>
                                 <h5 className='About-info'>Responsability</h5>
@@ -39,15 +39,20 @@ const AboutMe =()=>{
                                 <h5 className='About-info'>Leadership</h5>
                                 <h5 className='About-info'>Dynamism</h5>
                             </div>
-                            <div className='col'>
-                                <h2 className='About-info'>Technique Skills</h2>
-                                <h5 className='About-info'>Javascript</h5>
-                                <h5 className='About-info'><span className='icon-html5'></span>HTML5 & <span className='icon-css31'></span>CSS3</h5>
-                                <h5 className='About-info'><span className='icon-bootstrap'></span>Bootstrap & <span className='icon-react'></span>React</h5>
-                                <h5 className='About-info'>Photoshop & <span className='icon-figma'></span>Figma</h5>
-                                <h5 className='About-info'><span className='icon-react'></span>React-Native & Firebase</h5>
-                                <h5 className='About-info'><span className='icon-node-dot-js'></span>Node.js & <span className='icon-git1'></span>Git & <span className='icon-github1'></span>GitHub</h5>
-                                <h5 className='About-info'>Agile Methods (Kanban)</h5>
+                            <div className='col About-container-icon'>
+                                <h2 className='About-info tech'>Technical Skills</h2>
+                                <span className='devicon-javascript-plain colored About-iconskill'></span>
+                                <span className='icon-html5 About-iconskill'></span> 
+                                <span className='icon-css31 About-iconskill'></span>
+                                <span className='icon-bootstrap About-iconskill'></span> 
+                                <span className='devicon-react-original-wordmark colored About-iconskill'></span>
+                                <span className='devicon-photoshop-line colored About-iconskill'></span> <br/> <br/> <br/> <br/>
+                               <span className='icon-figma About-iconskill icon-move'></span>
+                                <span className='icon-react About-iconskill'></span>
+                                <span className='devicon-nodejs-plain colored About-iconskill'></span> 
+                                <span className='icon-git1 About-iconskill'></span> 
+                                <span className='icon-github1 About-iconskill icon-color'></span>
+                                <span className='devicon-trello-plain colored About-iconskill'></span>
                             </div>
                         </div>
                     </div>
