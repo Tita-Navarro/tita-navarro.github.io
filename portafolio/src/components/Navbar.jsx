@@ -12,19 +12,19 @@ const Navbar =()=>{
   <div className="collapse navbar-collapse" id="navbarColor01">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item">
-        <a className="nav-link" href="/AboutMe">About Me <span className="sr-only"></span></a>
+        <a className="nav-link" href="#AboutMe">About Me <span className="sr-only"></span></a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/Hobbies">Hobbies</a>
+        <a className="nav-link" href="#Hobbies">Hobbies</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/Portfolio">Portfolio</a>
+        <a className="nav-link" href="#Portfolio">Portfolio</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/Curriculum">Curriculum</a>
+        <a className="nav-link" href="#Curriculum">Curriculum</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/ContactMe">Let's talk</a>
+        <a className="nav-link" href="#ContactMe">Let's talk</a>
       </li>
     </ul>
   </div>

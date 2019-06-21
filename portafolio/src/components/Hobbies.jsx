@@ -3,7 +3,7 @@ import '../styles/Hobbies.css';
 
 const Hobbies =()=>{
     return(
-        <div className='Hobbies'>
+        <div id='Hobbies' className='Hobbies'>
             <div className='Hobbies-container'>
                 <div className='Hobbies-info'>
                     <br/> <br/>

@@ -1,10 +1,11 @@
 import React from 'react';
 import '../styles/AboutMe.css';
 import '../styles/style.css';
+import ReactPlayer from 'react-player';
 
 const AboutMe =()=>{
     return(
-        <div className='About'>
+        <div id='AboutMe' className='About'>
             <div className='About-container div-bg'>
                 <div className='About-brand'>
                     <br/> <br/> <br/>
@@ -19,11 +20,18 @@ const AboutMe =()=>{
                         </div>
                         <div className="col-md">
                            <br/> <br/>
-                           <h2 className='About-info'>Martha M. Navarro</h2>
-                           <h2 className='About-info'>Alias: Tita</h2>
+                           <h3 className='About-info'>Martha M. Navarro</h3>
+                           <h3 className='About-info'>Alias: Tita</h3>
                         </div>
                         <div className="col-md">
-                            One of three columns
+
+                            <ReactPlayer
+                            url='https://www.youtube.com/watch?v=WjcylW50-q4'
+                            className='react-player'
+                            playing
+                            
+                            width='25rem'
+                          />
                         </div>
                     </div>
                     <br/>
