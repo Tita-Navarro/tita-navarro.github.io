@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player';
 
 const AboutMe =()=>{
     return(
-        <div id='AboutMe' className='About'>
+        <div id='AboutMe' className='About container-fluid'>
             <div className='About-container div-bg'>
                 <div className='About-brand'>
                     <br/> <br/> <br/>
