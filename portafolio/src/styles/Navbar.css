@@ -8,3 +8,7 @@
     z-index: 100;
     top: 0;
 }
+
+nav{
+    margin-left:-1rem;
+}

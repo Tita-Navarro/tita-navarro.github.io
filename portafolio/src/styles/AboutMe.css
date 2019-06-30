@@ -1,41 +1,53 @@
-.About{
-    background-image: url(../images/mickey-background.jpg);
-    background-size: cover;
-    height:75rem;
-}
 .About-container{
     background: rgba(0,0,0,0.75);
-    height: 75rem;
-    margin:0.5rem;
 }
+.About-skill{
+    margin-bottom: 0.5rem;
+}   
 .About-info{
     color: #ffffff;
 }
-.About-iconskill{
-    font-size: 3rem;
-    margin-right: 4rem;
-}
-
-.icon-color{
-    color:#ffffff;
-}
-
-.icon-move{
-    margin-left: 4rem;
-}
-
-.tech{
-    text-align: center;
-}
-
-.About-skill{
-    background: rgba(0,0,0,0.25);
-}
-
 .title{
     text-align: center;
 }
-
+.tech{
+    text-align: center;
+}
+@media screen and (min-width: 64rem){
+    .About{
+        background-image: url(../images/mickey-background.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .About-container{
+        height: 67rem;
+        width: 92.1rem;
+        margin-left: -1rem;
+        margin-bottom: 0.5rem;
+    }
+    .name-alias{
+        font-size:3rem;
+    }
+    .About-iconskill{
+        font-size: 3rem;
+        margin-right: 4rem;
+    }
+    
+    .icon-color{
+        color:#ffffff;
+    }
+    
+    .icon-move{
+        margin-left: 4rem;
+    }
+    .About-Skills{
+        background: rgba(0,0,0,0.25);
+    }
+}
 @media screen and (min-width: 48rem) and (max-width:64rem){
     .About{
         background: url(../images/mickey_bgipad.jpg) no-repeat center center fixed; 
@@ -45,15 +57,16 @@
         background-size: cover;
         }
     .About-container{
-        height: 64rem;
-        margin:0.5rem;
+        height: 67rem;
+        width: 88.1rem;
+        margin-left: -1rem;
         }
     .title{
         font-size: 2rem!important;
         margin-left: 0!important;
     }
     .resp_img{
-        width: 45%;
+        width: 50%;
     }
     .About-info{
         font-size: 1.4rem;
@@ -70,7 +83,7 @@
     }
     .About-iconskill{
         font-size: 2rem;
-        margin-right: 1rem;
+        margin-right: 3rem;
     }
     .soft{
         margin-left: 0!important;
@@ -90,6 +103,29 @@
     }
 }
 
-@media screen and (min-width: 20rem) and (max-width:40rem){
 
+
+@media screen and (max-width:40rem){
+    .About{
+        background-image: url(../images/mickey_bgcellphone.png);
+        margin:0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .name-alias{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .icon-move{
+        margin-left: 1rem;
+    }
+    .About-iconskill{
+        font-size: 2rem;
+        margin-right: 2rem;
+    }
+    .soft{
+        text-align: center;
+    }
 }
+

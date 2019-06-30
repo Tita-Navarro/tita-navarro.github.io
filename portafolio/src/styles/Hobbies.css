@@ -1,68 +1,143 @@
-.Hobbies{
+@media screen and (min-width: 1025px) {
+  .Hobbies {
     background-image: url(../images/mickey-background4.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
     background-size: auto;
     height: 65rem;
-}
-.Hobbies-container{
-    background: rgba(0,0,0,0.75);
+    width: 87rem;
+    margin-bottom: 0.5rem;
+  }
+  .Hobbies-container {
     height: 65rem;
-    margin:0.5rem;
-}
-
-.Hobbies-title{
-    color:#ffffff;
-    text-align: center;
-    font-size: 5rem;
-}
-
-.icon-colorb{
-    color: rgb(231, 131, 49);
+    width: 92rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }
+  .icon-colorb {
     font-size: 5rem;
     margin-top: 1rem;
     margin-right: 6rem;
-}
+  }
 
-.icon-colors{
-    color:rgb(19, 113, 236);
+  .icon-colors {
     font-size: 5rem;
     margin-left: 5rem;
     margin-right: 7rem;
-}
+  }
 
-.icon-colorbook{
-    color:rgb(42, 202, 56);
+  .icon-colorbook {
     font-size: 5rem;
     margin-right: 7rem;
-}
+  }
 
-.icon-colorgame{
+  .icon-colorgame {
     font-size: 5rem;
-    color: rgb(139, 70, 243);
     margin-right: 7rem;
-}
+  }
 
-.icon-colorfit{
+  .icon-colorfit {
     font-size: 5rem;
-    color: #ffffff;
-    margin-right:7rem;
-}
-
-.icon-colorm{
-    font-size: 5rem;
-    color: rgb(247, 38, 38);
     margin-right: 7rem;
-}
+  }
 
-.Hobbies-icon{
+  .icon-colorm {
+    font-size: 5rem;
+    margin-right: 7rem;
+  }
+
+  .Hobbies-icon {
     margin-left: 10rem;
+  }
+
+  .icon-colortree {
+    font-size: 5rem;
+  }
+
+  .icon-colormic {
+    font-size: 5rem;
+  }
+  .Hobbies-title {
+    font-size: 5rem;
+  }
 }
 
-.icon-colortree{
-    font-size: 5rem;
-    color: rgb(66, 218, 79);
+@media screen and (max-width: 40rem) {
+  .Hobbies {
+    background-image: url(../images/mickey_bgcellphone2.png);
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .hobbie-pic {
+    width: 18rem;
+    margin-left: 3rem !important;
+  }
+  .Hobbies-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .hobbie-icon{
+      margin-right: 2rem;
+      font-size: 2rem;
+      margin-left: 3rem;
+  }
 }
 
-.icon-colormic{
-    font-size: 5rem;
-    color: rgb(222, 245, 20);
+@media screen and (max-width: 1024px) {
+  .Hobbies {
+    background-image: url(../images/mickey_bgipad2.jpg);
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .Hobbies-title{
+      font-size: 3rem;
+  }
+}
+
+.icon-colorb {
+  color: rgb(231, 131, 49);
+}
+
+.icon-colors {
+  color: rgb(19, 113, 236);
+}
+
+.icon-colorbook {
+  color: rgb(42, 202, 56);
+}
+
+.icon-colorgame {
+  color: rgb(139, 70, 243);
+}
+
+.icon-colorfit {
+  color: #ffffff;
+}
+.icon-colorm {
+  color: rgb(247, 38, 38);
+}
+.icon-colortree {
+  color: rgb(66, 218, 79);
+}
+.icon-colormic {
+  color: rgb(222, 245, 20);
+}
+
+.Hobbies-container {
+  background: rgba(0, 0, 0, 0.75);
+  margin-bottom: 0.5rem;
+}
+
+.Hobbies-title {
+  color: #ffffff;
+  text-align: center;
 }

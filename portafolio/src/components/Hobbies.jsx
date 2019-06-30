@@ -11,7 +11,8 @@ const Hobbies =()=>{
                     <div className="container Hobbies-info">
                     <div className="row">
                         <div className="col-md">
-                            <img src={require('../images/hobbies.jpg')} alt='tita_hobbies' className='mx-auto rounded float-left img-fluid' />
+                            <img src={require('../images/hobbies.jpg')} alt='tita_hobbies' className='rounded 
+                            float-left img-fluid hobbie-pic' />
                         </div>
                         <div className="col-md">
                            <br/> <br/>
@@ -19,14 +20,14 @@ const Hobbies =()=>{
                         </div>
                     </div> <br/>
                     <div className='Hobbies-icon'>
-                        <span className='icon-sports_basketball icon-colorb'></span> 
-                        <span className='icon-book1 icon-colorbook'></span>
-                        <span className='icon-fitness_center icon-colorfit'></span>
-                        <span className='icon-nature_people icon-colortree'></span> <br/><br/>
-                        <span className='icon-sports_soccer icon-colors'></span>
-                        <span className='icon-videogame_asset icon-colorgame'></span>
-                        <span className='icon-music_note icon-colorm'></span>
-                        <span className='icon-movie icon-colormic'></span>
+                        <span className='icon-sports_basketball icon-colorb hobbie-icon'></span> 
+                        <span className='icon-book1 icon-colorbook hobbie-icon'></span>
+                        <span className='icon-fitness_center icon-colorfit hobbie-icon'></span>
+                        <span className='icon-nature_people icon-colortree hobbie-icon'></span> <br/><br/>
+                        <span className='icon-sports_soccer icon-colors hobbie-icon'></span>
+                        <span className='icon-videogame_asset icon-colorgame hobbie-icon'></span>
+                        <span className='icon-music_note icon-colorm hobbie-icon'></span>
+                        <span className='icon-movie icon-colormic hobbie-icon'></span>
                     </div>
                     </div>
 
