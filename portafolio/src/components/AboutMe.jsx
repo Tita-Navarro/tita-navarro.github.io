@@ -26,7 +26,7 @@ const AboutMe =()=>{
                            <h3 className='About-info name-alias'>Alias: Tita</h3>
                         </div>
                         <div className="col-sm">
-
+                            <h3 className='About-video'>About Me</h3>
                             <ReactPlayer
                             url='https://www.youtube.com/watch?v=WjcylW50-q4'
                             className='react-player video-player'

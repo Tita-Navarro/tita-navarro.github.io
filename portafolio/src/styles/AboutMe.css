@@ -13,6 +13,9 @@
 .tech{
     text-align: center;
 }
+.About-video{
+    color: #ffffff;
+}
 @media screen and (min-width: 64rem){
     .About{
         background-image: url(../images/mickey-background.jpg);
@@ -48,7 +51,7 @@
         background: rgba(0,0,0,0.25);
     }
 }
-@media screen and (min-width: 48rem) and (max-width:64rem){
+@media screen and (min-width: 41rem) and (max-width:64rem){
     .About{
         background: url(../images/mickey_bgipad.jpg) no-repeat center center fixed; 
         -webkit-background-size: cover;

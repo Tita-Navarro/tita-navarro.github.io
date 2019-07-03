@@ -1,18 +1,34 @@
 .Portfolio-container {
-    background: rgba(0, 0, 0, 0.75);
-    height: 75rem;
-  }
-  
-  .Portfolio-title {
+  background: rgba(0, 0, 0, 0.75);
+  height: 75rem;
+}
+
+.Portfolio-title {
+  color: #ffffff;
+  text-align: center;
+}
+
+.Portfolio-info {
+  color: #ffffff;
+  text-align: center;
+}
+.pokemon-info, .technologies, .socialnetwork-info, .organa-info, .segura-info{
     color: #ffffff;
     text-align: center;
-  }
-  
-  .Portfolio-info {
+}
+.technologies:hover{
+    color:rgb(0,128,255);
+}
+.Portfolio-projectsTitle{
     color: #ffffff;
     text-align: center;
-  }
-  
+    font-size: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.Portfolio-projectsTitle:hover{
+    color: rgb(0, 255, 149);
+}
+
 @media screen and (min-width: 64rem) {
   .Portfolio {
     background-image: url(../images/mickey-background3.jpg);
@@ -30,10 +46,18 @@
     font-size: 3rem;
   }
   .Portfolio-container {
-    height: 75rem;
+    height: 80rem;
     width: 92rem;
     margin: 0;
     margin-bottom: 0.5rem;
+  }
+  .pokemon-img, .prototype-img{
+      width: 30rem;
+      margin-left: 4rem;
+  }
+  .mundoDulce-img{
+      width: 30rem;
+      margin-left:4rem;
   }
 }
 @media screen and (max-width: 64rem) {
@@ -53,11 +77,31 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+  .Portfolio-container {
+    height: 95rem;
+  }
   .Portfolio-title {
     font-size: 2rem;
   }
   .Portfolio-desc {
     font-size: 1rem;
   }
-}
+  .pokemon-img {
+    width: 20rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+  }
+  .pokemon-info, .organa-info, .segura-info, .socialnetwork-info {
+      text-align: center;
+      font-size: 1rem;
 
+  }
+  .mundoDulce-img {
+      width: 20rem;
+      margin-left: 3rem;
+      margin-bottom: 1rem;
+  }
+  .Portfolio-projectsTitle{
+      font-size: 2rem;
+  }
+}

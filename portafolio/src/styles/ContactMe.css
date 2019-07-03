@@ -12,7 +12,7 @@
   }
 
   .ContactMe-title{
-    font-size: 5rem;
+    font-size: 2rem;
   }
 
   .img-marg {
@@ -37,4 +37,8 @@
 }
 .ContactMe-container {
     background: rgba(0, 0, 0, 0.75);
+}
+.display-icon{
+    display:inline-flex;
+    margin-right: 1rem;
 }
