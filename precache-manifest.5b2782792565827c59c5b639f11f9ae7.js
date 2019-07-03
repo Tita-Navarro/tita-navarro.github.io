@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de908b6a6e26669f4d0cb9a8f8cdb179",
+    "revision": "de6b833233311a714003e15f4422d516",
     "url": "/index.html"
   },
   {
-    "revision": "93f4e4ffe54f3fd7c11a",
+    "revision": "79a92e4e947d9bed019d",
     "url": "/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "8fe0e4bc476629f9af90",
-    "url": "/static/css/main.f8beb131.chunk.css"
+    "revision": "a653ab9bc0c9a65aa9c3",
+    "url": "/static/css/main.0cafd070.chunk.css"
   },
   {
-    "revision": "93f4e4ffe54f3fd7c11a",
-    "url": "/static/js/2.95af3f73.chunk.js"
+    "revision": "79a92e4e947d9bed019d",
+    "url": "/static/js/2.2d9015e4.chunk.js"
   },
   {
-    "revision": "8fe0e4bc476629f9af90",
-    "url": "/static/js/main.c1bed0a1.chunk.js"
+    "revision": "a653ab9bc0c9a65aa9c3",
+    "url": "/static/js/main.1a2bb056.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -26,6 +26,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f0b910595549fcbb28c6f80947033d1f",
     "url": "/static/media/Castelnav.f0b91059.png"
+  },
+  {
+    "revision": "7417ff9a69dc2507feadddf84cc9aeae",
+    "url": "/static/media/Organa.7417ff9a.png"
+  },
+  {
+    "revision": "b644f5957c76a1ff545af15ca09c707d",
+    "url": "/static/media/PokemonGoNotes.b644f595.png"
   },
   {
     "revision": "c4471029d9ca6e8872c28e76872b054f",
@@ -94,6 +102,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e7238f69d25043cebe22b0f6d9b3df29",
     "url": "/static/media/mickey_bgipad3.e7238f69.jpg"
+  },
+  {
+    "revision": "447a491dfd94f10840836426eb9a9617",
+    "url": "/static/media/mundo_dulce.447a491d.png"
+  },
+  {
+    "revision": "dca79c47aa1874576372b497b53cec15",
+    "url": "/static/media/segura.dca79c47.png"
   },
   {
     "revision": "8bfcfbc24f30d04e846c1db20625d264",
