@@ -38,7 +38,7 @@ const AboutMe = () => {
                 className="react-player video-player"
                 playing
                 width="30rem"
-                height="20rem"
+                height="18rem"
               />
             </div>
           </div>
