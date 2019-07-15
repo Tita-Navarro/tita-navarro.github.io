@@ -37,7 +37,7 @@ const AboutMe = () => {
                 url="https://www.youtube.com/watch?v=WjcylW50-q4"
                 className="react-player video-player"
                 playing
-                width="40rem"
+                width="30rem"
                 height="20rem"
               />
             </div>
