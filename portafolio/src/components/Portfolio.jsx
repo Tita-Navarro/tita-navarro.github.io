@@ -16,11 +16,10 @@ const Portfolio = () => {
         <h2 className="Portfolio-projectsTitle">Projects</h2>
         <div className="Portfolio-projects row container-fluid">
           <div className="col-md Portfolio-finished-project">
-              <br/>
               <h4 className='pokemon-info'>Pokémon Go Notes</h4>
             <a
               href="https://tita-navarro.github.io/GDL002-data-lovers/src/index.html"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
               <img
                 src={require("../images/PokemonGoNotes.png")}
@@ -40,7 +39,7 @@ const Portfolio = () => {
               <h4 className='socialnetwork-info'>Mundo Dulce</h4>
             <a
               href="https://red-social-595e4.firebaseapp.com/login"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
               <img
                 src={require("../images/mundo_dulce.png")}
@@ -49,10 +48,9 @@ const Portfolio = () => {
               />
             </a>
             <h5 className="socialnetwork-info">
-              In this project, in a teamwork, I created a social network for
-              desserts <br />
-              and recipes about these. You can create your account and make a
-              publication.
+              In this project, in a teamwork, I created a social network <br /> 
+              for desserts and recipes about these. You can create your <br />
+              account and make a publication.
             </h5>
             <p className="technologies">
               Javascript, HTML5, Bootstrap (CCS3), Git/Github, Firebase
@@ -65,11 +63,11 @@ const Portfolio = () => {
             <h4 className='organa-info'>Organa QRLector</h4>
             <a
               href="https://www.figma.com/proto/Yr7D9xxjBb3n70GbqEdSeMQY/Organa?node-id=2%3A25&viewport=524%2C350%2C0.07449441403150558&scaling=min-zoom"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
               <img
                 src={require("../images/Organa.png")}
-                className="rounded img-fluid prototype-img"
+                className="rounded img-fluid prototype-img img-Organa"
                 alt="project-Organa"
               />
             </a>
@@ -80,14 +78,14 @@ const Portfolio = () => {
             <p className="technologies">
               Figma, Photoshop, React, Bootstrap, HTML5 <br/>
               You can see the advanced <a href='https://galiov.github.io/Organa-QRLector/#/'
-              target='_blank'>here</a>
+              target='_blank'rel="noopener noreferrer">here</a>
             </p>
           </div>
           <div className="col-md Portfolio-finished-project">
               <h4 className='segura-info'>Segura</h4>
             <a
               href="https://www.figma.com/proto/GZLWO1qVevelqlWzYei2e1ou/Segura?node-id=0%3A1&viewport=144%2C321%2C0.75&scaling=scale-down"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
               <img
                 src={require("../images/segura.png")}
@@ -96,7 +94,8 @@ const Portfolio = () => {
               />
             </a>
             <h5 className="socialnetwork-info">
-              Segura was a project created it in a hackaton "Hackeando La Desigualdad"<br/>
+              Segura was a project created it in a hackaton <br/> 
+              "Hackeando La Desigualdad"<br/>
               The web has the purpose to help and fight the ciberbullying
             </h5>
             <p className="technologies">

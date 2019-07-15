@@ -12,21 +12,25 @@
   color: #ffffff;
   text-align: center;
 }
-.pokemon-info, .technologies, .socialnetwork-info, .organa-info, .segura-info{
-    color: #ffffff;
-    text-align: center;
+.pokemon-info,
+.technologies,
+.socialnetwork-info,
+.organa-info,
+.segura-info {
+  color: #ffffff;
+  text-align: center;
 }
-.technologies:hover{
-    color:rgb(0,128,255);
+.technologies:hover {
+  color: rgb(0, 128, 255);
 }
-.Portfolio-projectsTitle{
-    color: #ffffff;
-    text-align: center;
-    font-size: 4rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+.Portfolio-projectsTitle {
+  color: #ffffff;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.Portfolio-projectsTitle:hover{
-    color: rgb(0, 255, 149);
+.Portfolio-projectsTitle:hover {
+  color: rgb(0, 255, 149);
 }
 
 @media screen and (min-width: 64rem) {
@@ -51,13 +55,14 @@
     margin: 0;
     margin-bottom: 0.5rem;
   }
-  .pokemon-img, .prototype-img{
-      width: 30rem;
-      margin-left: 4rem;
+  .pokemon-img,
+  .prototype-img {
+    width: 30rem;
+    margin-left: 6rem;
   }
-  .mundoDulce-img{
-      width: 30rem;
-      margin-left:4rem;
+  .mundoDulce-img {
+    width: 30rem;
+    margin-left: 6rem;
   }
 }
 @media screen and (max-width: 64rem) {
@@ -88,20 +93,25 @@
   }
   .pokemon-img {
     width: 20rem;
-    margin-left: 3rem;
+    margin-left: 1rem;
     margin-bottom: 1rem;
   }
-  .pokemon-info, .organa-info, .segura-info, .socialnetwork-info {
-      text-align: center;
-      font-size: 1rem;
-
+  .pokemon-info,
+  .organa-info,
+  .segura-info,
+  .socialnetwork-info {
+    text-align: center;
+    font-size: 1rem;
   }
   .mundoDulce-img {
-      width: 20rem;
-      margin-left: 3rem;
-      margin-bottom: 1rem;
+    width: 20rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
   }
-  .Portfolio-projectsTitle{
-      font-size: 2rem;
+  .Portfolio-projectsTitle {
+    font-size: 2rem;
+  }
+  .img-Organa{
+    margin-left: 1rem;
   }
 }

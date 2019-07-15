@@ -76,8 +76,8 @@
     background-position: center;
   }
   .hobbie-pic {
-    width: 18rem;
-    margin-left: 3rem !important;
+    width: 17rem;
+    margin-left: 1rem !important;
   }
   .Hobbies-title {
     font-size: 2rem;
@@ -86,7 +86,7 @@
   .hobbie-icon{
       margin-right: 2rem;
       font-size: 2rem;
-      margin-left: 3rem;
+      margin-left: 1rem;
   }
 }
 
