@@ -44,10 +44,10 @@
     width: 90rem;
   }
   .Portfolio-title {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .Portfolio-desc {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .Portfolio-container {
     height: 80rem;
@@ -63,6 +63,9 @@
   .mundoDulce-img {
     width: 30rem;
     margin-left: 6rem;
+  }
+  .socialnetwork-info{
+    font-size:0.75rem;
   }
 }
 @media screen and (max-width: 64rem) {
