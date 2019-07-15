@@ -13,12 +13,14 @@ const AboutMe = () => {
             src={require("../images/Castelnav.png")}
             alt="brand"
             className="mx-auto d-block 
-                    img-fluid resp_img"
+                    img-fluid resp_img about-cast"
           />
-          <br />
           <h2 className="About-info title">- FrontEnd UX Marketer -</h2>
         </div>
-        <br /> <br />
+        <br/>
+        <div>
+              <h4 className="About-info name-alias">Martha M. Navarro Alias "Tita"</h4>
+            </div>
         <div className="container-fluid AboutMe">
           <div className="row">
             <div className="col-sm">
@@ -30,17 +32,13 @@ const AboutMe = () => {
               />
             </div>
             <div className="col-sm">
-              <br /> <br />
-              <h3 className="About-info name-alias">Martha M. Navarro</h3>
-              <h3 className="About-info name-alias">Alias: Tita</h3>
-            </div>
-            <div className="col-sm">
               <h3 className="About-video">About Me</h3>
               <ReactPlayer
                 url="https://www.youtube.com/watch?v=WjcylW50-q4"
                 className="react-player video-player"
                 playing
-                width="25rem"
+                width="40rem"
+                height="20rem"
               />
             </div>
           </div>

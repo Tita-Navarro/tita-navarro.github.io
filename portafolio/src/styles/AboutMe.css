@@ -15,6 +15,7 @@
 }
 .About-video{
     color: #ffffff;
+    text-align: center;
 }
 @media screen and (min-width: 64rem){
     .About{
@@ -31,9 +32,18 @@
         width: 92.1rem;
         margin-left: -1rem;
         margin-bottom: 0.5rem;
+        text-align: center;
     }
     .name-alias{
-        font-size:3rem;
+        font-size:2rem;
+        font-weight: 700;
+        color: rgba(42, 142, 236, 0.75)
+    }
+    .about-cast{
+        width:30rem;
+    }
+    .resp_photo{
+        width:23rem;
     }
     .About-iconskill{
         font-size: 3rem;
