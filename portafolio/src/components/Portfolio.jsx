@@ -14,8 +14,8 @@ const Portfolio = () => {
           </h3>
         </div>
         <br/>
-        <div className="Portfolio-projects card-deck container-fluid">
-          <div className="card border-secondary">
+        <div className="Portfolio-projects card-deck row container-fluid">
+          <div className="card card-bg col border-secondary">
             <img
               src={require("../images/PokemonGoNotes.png")}
               className="card-img-top"
@@ -23,7 +23,7 @@ const Portfolio = () => {
             />
             <div className="card-body">
               <h5 className="card-title text">Pokémon Go Notes</h5>
-              <p className="card-text pokemon-info">
+              <p className="card-text project-info">
                 In this project, I used a database to give the user information
                 about Pokémon in Kanto region
               </p>
@@ -40,7 +40,7 @@ const Portfolio = () => {
               </a>
             </div>
           </div>
-          <div className="card border-secondary">
+          <div className="card card-bg col border-secondary">
             <img
               src={require("../images/mundo_dulce.png")}
               className="card-img-top"
@@ -48,7 +48,7 @@ const Portfolio = () => {
             />
             <div className="card-body">
               <h5 className="card-title text">Mundo Dulce</h5>
-              <p className="card-text pokemon-info">
+              <p className="card-text project-info">
                 In this project, in a teamwork, I created a social network for
                 desserts and recipes about these. You can create your account
                 and make a publication.
@@ -67,7 +67,7 @@ const Portfolio = () => {
               </a>
             </div>
           </div>
-          <div className="card border-secondary">
+          <div className="card card-bg col border-secondary">
             <img
               src={require("../images/PWA.png")}
               className="card-img-top"
@@ -75,7 +75,7 @@ const Portfolio = () => {
             />
             <div className="card-body">
               <h5 className="card-title text">Super-Recetas</h5>
-              <p className="card-text pokemon-info">
+              <p className="card-text project-info pokemon-info">
                 I create the configuration files that I need to have a Web App
                 into a PWA
               </p>
@@ -104,7 +104,7 @@ const Portfolio = () => {
             />
             <div className="card-body">
               <h5 className="card-title text">Organa-QRLector</h5>
-              <p className="card-text organa-info">
+              <p className="card-text project-info">
                 I present this prototype with my team, this project resolve the
                 problem to Laboratoria to take the assistance of the students
                 there.
@@ -137,7 +137,7 @@ const Portfolio = () => {
             />
             <div className="card-body">
               <h5 className="card-title text">Segura</h5>
-              <p className="card-text segura-info">
+              <p className="card-text project-info">
                 Segura was a project created it in a hackaton "Hackeando La
                 Desigualdad" The web has the purpose to help and fight the
                 ciberbullying

@@ -17,7 +17,7 @@
 .card-bg{
   background: rgba(255, 255, 255, 0.7)!important;
   background-size: 25rem!important;
-  margin-left: 10rem!important;
+ 
 }
 .img-size{
   height: 13rem;
@@ -26,11 +26,7 @@
   color: #ffffff;
   text-align: center;
 }
-.pokemon-info,
-.technologies,
-.socialnetwork-info,
-.organa-info,
-.segura-info {
+.project-info, .technologies {
   color: rgb(6, 58, 143);
   font-weight: bold;
 }
@@ -110,12 +106,9 @@
     margin-left: 1rem;
     margin-bottom: 1rem;
   }
-  .pokemon-info,
-  .organa-info,
-  .segura-info,
-  .socialnetwork-info {
+  project-info{
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
   .mundoDulce-img {
     width: 20rem;
@@ -127,5 +120,11 @@
   }
   .img-Organa{
     margin-left: 1rem;
+  }
+  .card{
+    width:15rem!important;
+  }
+  .text{
+    font-size: 1rem;
   }
 }
