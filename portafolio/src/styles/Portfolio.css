@@ -1,13 +1,27 @@
 .Portfolio-container {
   background: rgba(0, 0, 0, 0.75);
-  height: 75rem;
+  height: 80rem;
 }
-
+.card{
+  width: 28rem!important;
+  margin-left: 1rem;
+}
+.text{
+  font-weight: 400;
+  text-align: center!important;
+}
 .Portfolio-title {
   color: #ffffff;
   text-align: center;
 }
-
+.card-bg{
+  background: rgba(255, 255, 255, 0.7)!important;
+  background-size: 25rem!important;
+  margin-left: 10rem!important;
+}
+.img-size{
+  height: 13rem;
+}
 .Portfolio-info {
   color: #ffffff;
   text-align: center;
@@ -17,11 +31,8 @@
 .socialnetwork-info,
 .organa-info,
 .segura-info {
-  color: #ffffff;
-  text-align: center;
-}
-.technologies:hover {
-  color: rgb(0, 128, 255);
+  color: rgb(6, 58, 143);
+  font-weight: bold;
 }
 .Portfolio-projectsTitle {
   color: #ffffff;
