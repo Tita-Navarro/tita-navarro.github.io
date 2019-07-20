@@ -20,20 +20,24 @@
  
 }
 .img-size{
-  height: 13rem;
+  width: 60rem!important;
+  height: 30rem;
+  margin-left: 15rem;
+  margin-bottom: 1rem;
+}
+.Portfolio-bgtext{
+  background: rgba(0, 0, 0, 0.75);
+  width:60rem;
+  margin-left:1rem;
 }
 .Portfolio-info {
   color: #ffffff;
   text-align: center;
 }
-.project-info, .technologies {
-  color: rgb(6, 58, 143);
-  font-weight: bold;
-}
 .Portfolio-projectsTitle {
   color: #ffffff;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .Portfolio-projectsTitle:hover {
@@ -50,11 +54,9 @@
     background-repeat: no-repeat;
     width: 90rem;
   }
-  .Portfolio-title {
-    font-size: 4rem;
-  }
   .Portfolio-desc {
-    font-size: 2.5rem;
+    font-size: 4rem;
+    font-weight: bold;
   }
   .Portfolio-container {
     height: 80rem;
