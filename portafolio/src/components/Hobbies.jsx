@@ -10,6 +10,10 @@ const Hobbies = () => {
           <h1 className="Hobbies-title">Hobbies</h1>
           <div className="container Hobbies-info">
             <div className="row">
+            <div className="col-md">
+                <br /> <br />
+                Vídeo
+              </div>
               <div className="col-md">
                 <img
                   src={require("../images/hobbies.jpg")}
@@ -18,11 +22,7 @@ const Hobbies = () => {
                             float-left img-fluid hobbie-pic"
                 />
               </div>
-              <div className="col-md">
-                <br /> <br />
-                Vídeo
-              </div>
-            </div>{" "}
+            </div>
             <br />
             <div className="Hobbies-icon">
               <span className="icon-sports_basketball icon-colorb hobbie-icon" />
