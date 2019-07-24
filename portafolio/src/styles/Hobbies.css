@@ -19,6 +19,10 @@
     margin: 0;
     margin-bottom: 0.5rem;
   }
+  .hobbie-pic{
+    width:30rem;
+    margin-top: 4rem;
+  }
   .icon-colorb {
     font-size: 5rem;
     margin-top: 1rem;
@@ -63,7 +67,8 @@
     font-size: 5rem;
   }
   .Hobbies-title {
-    font-size: 5rem;
+    font-size: 2rem;
+    margin-top: 7rem;
   }
 }
 
@@ -76,17 +81,22 @@
     background-position: center;
   }
   .hobbie-pic {
-    width: 17rem;
-    margin-left: 1rem !important;
+    width: 15rem;
+    margin-left: 7rem !important;
+    align-items: center;
   }
   .Hobbies-title {
-    font-size: 2rem;
-    text-align: center;
+    margin-top: 2rem;
+    font-size: 1rem!important;
+    text-align: left;
   }
   .hobbie-icon{
       margin-right: 2rem;
       font-size: 2rem;
-      margin-left: 1rem;
+      margin-left: 0.75rem;
+  }
+  .Hobbies-icon{
+    margin-left:5.5rem;
   }
 }
 
@@ -97,9 +107,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  }
-  .Hobbies-title{
-      font-size: 3rem;
   }
 }
 
@@ -140,4 +147,7 @@
 .Hobbies-title {
   color: #ffffff;
   text-align: center;
+}
+.Hobbies-icon{
+  margin-top: 4rem;
 }

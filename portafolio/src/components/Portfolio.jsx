@@ -5,76 +5,11 @@ const Portfolio = () => {
   return (
     <div id="Portfolio" className="Portfolio">
       <div className="Portfolio-container">
-        <div className="Portfolio-info">
+        <div className="Portfolio-info row">
           <br />
-          <h3 className="Portfolio-desc">
-              Portfolio
-          </h3>
         </div>
-        {/* 
-        <div className="Portfolio-projects row container-fluid">
-        <div className="card card-bg border-secondary">
-            <img
-              src={require("../images/Organa.png")}
-              className="card-img-top img-size"
-              alt="organa-project"
-            />
-            <div className="card-body">
-              <h5 className="card-title text">Organa-QRLector</h5>
-              <p className="card-text project-info">
-                I present this prototype with my team, this project resolve the
-                problem to Laboratoria to take the assistance of the students
-                there.
-              </p>
-              <p className="card-text technologies">
-                Technologies: Figma, Photoshop, React, Bootstrap, HTML5
-                You can see the advanced <a
-                  href="https://galiov.github.io/Organa-QRLector/#/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  here
-                </a>
-              </p>
-              <a
-                href="https://www.figma.com/proto/Yr7D9xxjBb3n70GbqEdSeMQY/Organa?node-id=2%3A25&viewport=524%2C350%2C0.07449441403150558&scaling=min-zoom"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-success"
-              >
-                See the project
-              </a>
-            </div>
-            </div>
-            <div className="card card-bg border-secondary">
-            <img
-              src={require("../images/segura.png")}
-              className="card-img-top"
-              alt="segura"
-            />
-            <div className="card-body">
-              <h5 className="card-title text">Segura</h5>
-              <p className="card-text project-info">
-                Segura was a project created it in a hackaton "Hackeando La
-                Desigualdad" The web has the purpose to help and fight the
-                ciberbullying
-              </p>
-              <p className="card-text technologies">
-                Technologies: Figma, Photoshop
-              </p>
-              <a
-                href="https://www.figma.com/proto/GZLWO1qVevelqlWzYei2e1ou/Segura?node-id=0%3A1&viewport=144%2C321%2C0.75&scaling=scale-down"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-success"
-              >
-                See the project
-              </a>
-            </div>
-          </div>
-          </div>*/}
           <h4 className='Portfolio-projectsTitle'>Projects</h4>
-        <div className="bd-example">
+        <div className="bd-example Portfolio-size col-md">
           <div
             id="carouselExampleCaptions"
             className="carousel slide"
@@ -183,7 +118,7 @@ const Portfolio = () => {
           </div>
         </div>
         <h4 className='Portfolio-projectsTitle'>Prototypes</h4>
-        <div className="bd-example">
+        <div className="bd-example col-md">
           <div
             id="carouselExampleCaptions2"
             className="carousel slide"
@@ -274,6 +209,8 @@ const Portfolio = () => {
             </a>
           </div>
         </div>
+          <image src={require('../images/mickey-reload-time.png')} alt='reload-mickey'
+          className='position-mickey'/>
       </div>
     </div>
   );

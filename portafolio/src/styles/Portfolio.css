@@ -2,33 +2,28 @@
   background: rgba(0, 0, 0, 0.75);
   height: 80rem;
 }
-.card{
-  width: 28rem!important;
-  margin-left: 1rem;
-}
-.text{
+.text {
   font-weight: 400;
-  text-align: center!important;
+  text-align: center !important;
 }
 .Portfolio-title {
   color: #ffffff;
   text-align: center;
 }
-.card-bg{
-  background: rgba(255, 255, 255, 0.7)!important;
-  background-size: 25rem!important;
- 
+.card-bg {
+  background: rgba(255, 255, 255, 0.7) !important;
+  background-size: 25rem !important;
 }
-.img-size{
-  width: 60rem!important;
+.img-size {
+  width: 60rem !important;
   height: 30rem;
   margin-left: 15rem;
   margin-bottom: 1rem;
 }
-.Portfolio-bgtext{
+.Portfolio-bgtext {
   background: rgba(0, 0, 0, 0.75);
-  width:60rem;
-  margin-left:1rem;
+  width: 60rem;
+  margin-left: 1rem;
 }
 .Portfolio-info {
   color: #ffffff;
@@ -42,6 +37,10 @@
 }
 .Portfolio-projectsTitle:hover {
   color: rgb(0, 255, 149);
+}
+.position-mickey{
+  position: right;
+  display:none;
 }
 
 @media screen and (min-width: 64rem) {
@@ -64,17 +63,8 @@
     margin: 0;
     margin-bottom: 0.5rem;
   }
-  .pokemon-img,
-  .prototype-img {
-    width: 30rem;
-    margin-left: 6rem;
-  }
-  .mundoDulce-img {
-    width: 30rem;
-    margin-left: 6rem;
-  }
-  .socialnetwork-info{
-    font-size:0.75rem;
+  .socialnetwork-info {
+    font-size: 0.75rem;
   }
 }
 @media screen and (max-width: 64rem) {
@@ -103,30 +93,31 @@
   .Portfolio-desc {
     font-size: 1rem;
   }
-  .pokemon-img {
-    width: 20rem;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-  }
-  project-info{
+  .project-info {
     text-align: center;
     font-size: 0.75rem;
-  }
-  .mundoDulce-img {
-    width: 20rem;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
   }
   .Portfolio-projectsTitle {
     font-size: 2rem;
   }
-  .img-Organa{
-    margin-left: 1rem;
-  }
-  .card{
-    width:15rem!important;
-  }
-  .text{
+  .text {
     font-size: 1rem;
   }
+  .img-size{
+    width:25rem!important;
+    height: 10rem!important;
+    margin-left: 3rem;
+  }
+  .carousel-control-prev {
+    left: -1rem!important;
+}
+.carousel-control-next {
+    right: -2rem!important;
+}
+.Portfolio-bgtext {
+  width: 25rem!important;
+}
+.position-mickey{
+  display:block;
+}
 }

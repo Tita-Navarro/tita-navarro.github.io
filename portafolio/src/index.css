@@ -4,3 +4,9 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.carousel-control-prev {
+    left: 7rem!important;
+}
+.carousel-control-next {
+    right: 7rem!important;
+}

@@ -6,17 +6,18 @@ const Hobbies = () => {
     <div id="Hobbies" className="Hobbies">
       <div className="Hobbies-container">
         <div className="Hobbies-info">
-          <br /> <br />
-          <h1 className="Hobbies-title">Hobbies</h1>
+
           <div className="container Hobbies-info">
             <div className="row">
             <div className="col-md">
-                <br /> <br />
-                Vídeo
+             <h3 className='Hobbies-title'>My hobbies are: sing, dance, go to gym, play soccer,
+             enjoy the nature, write, watch movies and series, play videogames, visit my 
+             family, go out with friends, read, listen music and do new things.</h3>
               </div>
+              <br/> <br/>
               <div className="col-md">
                 <img
-                  src={require("../images/hobbies.jpg")}
+                  src={require("../images/hobbies.gif")}
                   alt="tita_hobbies"
                   className="rounded 
                             float-left img-fluid hobbie-pic"
