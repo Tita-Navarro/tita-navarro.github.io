@@ -82,7 +82,7 @@
   }
   .hobbie-pic {
     width: 15rem;
-    margin-left: 4rem !important;
+    margin-left: 2rem !important;
     align-items: center;
   }
   .Hobbies-title {
@@ -96,7 +96,7 @@
       margin-left: 0.75rem;
   }
   .Hobbies-icon{
-    margin-left:2.5rem;
+    margin-left:1.5rem;
   }
 }
 
