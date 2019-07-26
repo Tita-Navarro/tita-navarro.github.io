@@ -99,17 +99,18 @@
   }
   .Portfolio-projectsTitle {
     font-size: 2rem;
+    margin-top: 1rem;
   }
   .text {
     font-size: 1rem;
   }
   .img-size{
-    width:23rem!important;
+    width:20rem!important;
     height: 10rem!important;
-    margin-left: 3rem;
+    margin-left: 0;
   }
   .carousel-control-prev {
-    left: 0!important;
+    left: -2rem!important;
 }
 .carousel-control-next {
     right: -2rem!important;

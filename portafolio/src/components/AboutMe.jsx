@@ -8,18 +8,18 @@ const AboutMe = () => {
     <div id="AboutMe" className="About container-fluid">
       <div className="About-container">
         <div className="About-brand">
-          <br /> <br /> <br />
+          <br /> <br />
           <img
             src={require("../images/Castelnav.png")}
             alt="brand"
             className="mx-auto d-block 
                     img-fluid resp_img about-cast"
           />
-          <h2 className="About-info title">- FrontEnd UX Marketer -</h2>
+          <h2 className="About-info title">- FrontEnd UX -</h2>
         </div>
         <br/>
         <div>
-              <h4 className="About-info name-alias">Martha M. Navarro Alias "Tita"</h4>
+              <h4 className="About-info name-alias">Martha M. Navarro "Tita"</h4>
             </div>
         <div className="container-fluid AboutMe">
           <div className="row">
