@@ -42,7 +42,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <a
-              className="nav-link" target='_blank'
+              className="nav-link" target='_blank' rel="noopener noreferrer"
               href="https://drive.google.com/file/d/1K-TWa1ykc22T6wWknOXV-_ZNdG1YSXsM/view?usp=sharing"
             >
               Curriculum
