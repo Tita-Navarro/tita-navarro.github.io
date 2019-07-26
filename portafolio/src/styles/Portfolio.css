@@ -104,12 +104,12 @@
     font-size: 1rem;
   }
   .img-size{
-    width:25rem!important;
-    height: 10rem!important;
+    width:28rem!important;
+    height: 13rem!important;
     margin-left: 3rem;
   }
   .carousel-control-prev {
-    left: -1rem!important;
+    left: 0!important;
 }
 .carousel-control-next {
     right: -2rem!important;
