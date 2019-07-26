@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08501f358ccbba267b1eedeb0aa24431",
+    "revision": "3738689100123990aa11c0b37506fc2e",
     "url": "/index.html"
   },
   {
-    "revision": "4e8953fda076bf94a2b6",
+    "revision": "9983e5ba0c788ab1cd10",
     "url": "/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "9caf444d3ee82c5b59d9",
-    "url": "/static/css/main.49fa50f8.chunk.css"
+    "revision": "0b5a4d3b04e60099765d",
+    "url": "/static/css/main.f7722848.chunk.css"
   },
   {
-    "revision": "4e8953fda076bf94a2b6",
-    "url": "/static/js/2.99fed1cc.chunk.js"
+    "revision": "9983e5ba0c788ab1cd10",
+    "url": "/static/js/2.07d6eb4f.chunk.js"
   },
   {
-    "revision": "9caf444d3ee82c5b59d9",
-    "url": "/static/js/main.b51affd2.chunk.js"
+    "revision": "0b5a4d3b04e60099765d",
+    "url": "/static/js/main.ded27487.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/contactme_mickey.b98416be.png"
   },
   {
-    "revision": "1fd241d25e4c767a27078e99fc218f45",
-    "url": "/static/media/hobbies.1fd241d2.jpg"
+    "revision": "32347c699148a725e756e28f94ec07ff",
+    "url": "/static/media/hobbies.32347c69.gif"
   },
   {
     "revision": "0eb60b5aa7020029f175add7da4c38f5",
@@ -78,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c2bad8ff23abe1fc324a3e162c79be9a",
     "url": "/static/media/mickey-background5.c2bad8ff.jpg"
+  },
+  {
+    "revision": "5bc6572f180090986151bc61ea8f042c",
+    "url": "/static/media/mickey-reload-time.5bc6572f.png"
   },
   {
     "revision": "7c385e1937b2b50ed32a11c89574f3af",
@@ -116,7 +120,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/segura.dca79c47.png"
   },
   {
-    "revision": "8bfcfbc24f30d04e846c1db20625d264",
-    "url": "/static/media/tita_color.8bfcfbc2.png"
+    "revision": "fe3237ee92a450f4fdd336981faf1764",
+    "url": "/static/media/tita_color.fe3237ee.png"
   }
 ]);
