@@ -25,7 +25,7 @@ const Navbar = () => {
       </button>
       <div className="collapse navbar-collapse" id="navbarColor01">
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item">
+          <li className="nav-item active">
             <a className="nav-link" href="#AboutMe">
               About Me <span className="sr-only" />
             </a>
@@ -43,7 +43,7 @@ const Navbar = () => {
           <li className="nav-item">
             <a
               className="nav-link" target='_blank' rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1K-TWa1ykc22T6wWknOXV-_ZNdG1YSXsM/view?usp=sharing"
+              href="https://drive.google.com/file/d/170YAhyWjBy3LQuqp-a3TZgzwSwA3f9ij/view"
             >
               Curriculum
             </a>

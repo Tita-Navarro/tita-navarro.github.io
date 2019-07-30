@@ -37,14 +37,14 @@ const Portfolio = () => {
                     alt="pokemon-app"
                   />
                 </a>
-                <div className="carousel-caption d-none d-md-block Portfolio-bgtext">
-                  <h5>Pokémon Go Notes</h5>
-                  <p>
+                <div className="carousel-caption d-sm-block Portfolio-bgtext">
+                  <h5 className='Portfolio-TitleProject'>Pokémon Go Notes</h5>
+                  <p className='Portfolio-InfoProject'>
                     {" "}
                     In this project, I used a database to give the user
                     information about Pokémon in Kanto region
                   </p>
-                  <p>
+                  <p className='Portfolio-InfoProject'>
                     Technologies: HTML5, CSS3, Javascript ES6, Jest, Git/Github{" "}
                   </p>
                 </div>
@@ -61,13 +61,13 @@ const Portfolio = () => {
                     alt="social-network"
                   />
                 </a>
-                <div className="carousel-caption d-none d-md-block Portfolio-bgtext">
-                  <h5>Mundo Dulce</h5>
-                  <p>
+                <div className="carousel-caption d-sm-block Portfolio-bgtext">
+                  <h5 className='Portfolio-TitleProject'>Mundo Dulce</h5>
+                  <p className='Portfolio-InfoProject'>
                     In a teamwork, I created a social network. You can create
                     your account and make post.
                   </p>
-                  <p>
+                  <p className='Portfolio-InfoProject'>
                     Technologies: Git/Github, HTML5, Javascript ES6, Bootstrap,
                     Firebase
                   </p>
@@ -84,13 +84,13 @@ const Portfolio = () => {
                   className="d-block img-size"
                   alt="PWA"
                 /></a>
-                <div className="carousel-caption d-none d-md-block Portfolio-bgtext">
-                  <h5>Súper Recetas</h5>
-                  <p>
+                <div className="carousel-caption d-sm-block Portfolio-bgtext">
+                  <h5 className='Portfolio-TitleProject'>Súper Recetas</h5>
+                  <p className='Portfolio-InfoProject'>
                     I create the configuration files that I need to have a Web
                     App into a PWA
                   </p>
-                  <p>
+                  <p className='Portfolio-InfoProject'>
                     Technologies: React JS, Bootstrap, Workbox, Google
                     LightHouse, React-GA, Now.
                   </p>
@@ -145,14 +145,14 @@ const Portfolio = () => {
                     alt="Organa-app"
                   />
                 </a>
-                <div className="carousel-caption d-none d-md-block Portfolio-bgtext">
-                  <h5> Organa QrLector </h5>
-                  <p>
+                <div className="carousel-caption d-sm-block Portfolio-bgtext">
+                  <h5 className='Portfolio-TitleProject'> Organa QrLector </h5>
+                  <p className='Portfolio-InfoProject'>
                   I present this prototype with my team, this project resolve the
                 problem to Laboratoria to take the assistance of the students
                 there.
                   </p>
-                  <p>
+                  <p className='Portfolio-InfoProject'>
                     Technologies: React JS, Bootstrap, Git/Github, Photoshop, Figma. 
                     You can see the advanced <a
                   href="https://galiov.github.io/Organa-QRLector/#/"
@@ -176,14 +176,14 @@ const Portfolio = () => {
                     alt="Segura"
                   />
                 </a>
-                <div className="carousel-caption d-none d-md-block Portfolio-bgtext">
-                  <h5>Segura</h5>
-                  <p>
+                <div className="carousel-caption d-sm-block Portfolio-bgtext">
+                  <h5 className='Portfolio-TitleProject'>Segura</h5>
+                  <p className='Portfolio-InfoProject'>
                   Segura was a project created it in a hackaton "Hackeando La
                   Desigualdad" The web has the purpose to help and fight the
                   ciberbullying.
                   </p>
-                  <p>
+                  <p className='Portfolio-InfoProject'>
                     Technologies: Figma, Photoshop.
                   </p>
                 </div>

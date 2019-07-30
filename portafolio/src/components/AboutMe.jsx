@@ -8,7 +8,7 @@ const AboutMe = () => {
     <div id="AboutMe" className="About container-fluid">
       <div className="About-container">
         <div className="About-brand">
-          <br /> <br />
+          <br /> <br /> <br/ > <br />
           <img
             src={require("../images/Castelnav.png")}
             alt="brand"
