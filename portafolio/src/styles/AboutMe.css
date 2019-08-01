@@ -17,6 +17,10 @@
     color: #ffffff;
     text-align: center;
 }
+.photo-modal{
+    width: 13rem;
+    height: 18rem;
+}
 @media screen and (min-width: 64rem){
     .About{
         background-image: url(../images/mickey-background.jpg);
@@ -144,6 +148,9 @@
     }
     .about-cast{
         margin-top:3rem;
+    }
+    .photo-modal{
+        margin-left:3rem!important;
     }
 }
 

@@ -8,7 +8,7 @@ const AboutMe = () => {
     <div id="AboutMe" className="About container-fluid">
       <div className="About-container">
         <div className="About-brand">
-          <br /> <br /> <br/ > <br />
+          <br /> <br /> <br /> <br />
           <img
             src={require("../images/Castelnav.png")}
             alt="brand"
@@ -17,10 +17,10 @@ const AboutMe = () => {
           />
           <h2 className="About-info title">- FrontEnd UX -</h2>
         </div>
-        <br/>
+        <br />
         <div>
-              <h4 className="About-info name-alias">Martha M. Navarro "Tita"</h4>
-            </div>
+          <h4 className="About-info name-alias">Martha M. Navarro "Tita"</h4>
+        </div>
         <div className="container-fluid AboutMe">
           <div className="row">
             <div className="col-sm">
@@ -32,7 +32,43 @@ const AboutMe = () => {
               />
             </div>
             <div className="col-sm">
-              <h3 className="About-video">About Me</h3>
+              <a href="#exampleModal" data-toggle="modal" data-target="#exampleModal">
+                <h3 className="About-video">About Me</h3>{" "}
+              </a>
+              <div
+                className="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div className="modal-dialog" role="document">
+                  <div className="modal-content">
+                    <div className="modal-header">
+                      <h5 className="modal-title" id="exampleModalLabel">
+                        Something about me
+                      </h5>
+                      <button
+                        type="button"
+                        className="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div className="modal-body"><h5>Hello, I am a FrontEnd Dev and Digital
+                    Marketer. I am a passionate, friendly and lovely woman. I love to be 
+                    happy, optimism and I believe if we work in team we would have the
+                    best results. </h5>
+                    <h5>Do you want to know more about me? Contact Me!</h5>
+                    <img src={require("../images/modal-photo.jpg")} alt="modal-img" 
+                    className='photo-modal'/>
+                   </div>
+                  </div>
+                </div>
+              </div>
               <ReactPlayer
                 url="https://www.youtube.com/watch?v=WjcylW50-q4"
                 className="react-player video-player"
