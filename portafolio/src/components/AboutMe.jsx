@@ -70,7 +70,7 @@ const AboutMe = () => {
                 </div>
               </div>
               <ReactPlayer
-                url="https://www.youtube.com/watch?v=WjcylW50-q4"
+                url="https://www.youtube.com/watch?v=ElpsGgjewlQ"
                 className="react-player video-player"
                 playing
                 width="30rem"
