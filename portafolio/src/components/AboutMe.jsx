@@ -9,7 +9,7 @@ const AboutMe = () => {
         <div className="container-fluid AboutMe">
           <br/><br/><br/>
           <div className="row">
-            <div className="col-sm">
+            <div className="col-sm pic-div">
               <img
                 src={require("../images/tita_color.png")}
                 alt="tita"
@@ -17,7 +17,7 @@ const AboutMe = () => {
                             resp_photo"
               />
   </div>
-            <div className="col-sm">
+            <div className="col-sm About-text">
                 <h5 className="About-info text2">Hello, my name is</h5>
                 <h1 className="About-info text2 name">Martha Navarro</h1>
                 <h3 className='About-info text2'>I love to learn and build 

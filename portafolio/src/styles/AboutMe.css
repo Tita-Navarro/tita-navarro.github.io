@@ -14,7 +14,15 @@
 }
 .About-skill{
     margin-bottom: 0.5rem;
+}
+.pic-div{
+    display:flex;
+    margin-left:100px;
+    width: auto;
 }   
+.About-text{
+    margin-right:500px;
+}
 .About-info{
     color: #ffffff;
     margin-top:1rem;
