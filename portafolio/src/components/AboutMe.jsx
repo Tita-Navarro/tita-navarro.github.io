@@ -34,7 +34,7 @@ const AboutMe = () => {
           <br />
           <div className="About-Skills container">
             <div className="row">
-              <div className="col-md About-container-icon">
+              <div className="col-sm About-container-soft">
                 <h1 className="About-info About-soft">Soft Skills</h1>
                 <h5 className="About-info soft">Teamwork</h5>
                 <h5 className="About-info soft">Responsability</h5>
@@ -43,7 +43,7 @@ const AboutMe = () => {
                 <h5 className="About-info soft">Empathy</h5>
                 <h5 className="About-info soft">Leadership</h5>
               </div>
-              <div className="col-md About-container-icon">
+              <div className="col-sm About-container-icon">
                 <h1 className="About-info tech">Technical Skills</h1>
                 <span className="devicon-javascript-plain colored About-iconskill" />
                 <span className="icon-html5 About-iconskill" />

@@ -33,6 +33,12 @@
     border:solid 6px rgba(95, 4, 117, 0.678);
     border-radius: 50%;
 }
+.About-container-soft{
+    margin-left:-890px;
+}
+.About-container-icon{
+    margin-left: -420px;
+}
 .name:hover{
     color:rgba(105, 230, 241, 0.952);
     font-size: 4rem;
@@ -149,7 +155,7 @@
     }
     .text2{
         margin-left: 10px;
-        font-size: auto;
+        font-size: 1rem;
     }
     .About-soft{
         text-align: center;
