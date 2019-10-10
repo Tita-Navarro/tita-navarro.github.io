@@ -24,7 +24,6 @@
 }
 @media screen and (max-width: 40rem) {
   .ContactMe {
-    background-image: url(../images/mickey_bgcellphone4.png);
     background-size: cover;
     background-repeat: no-repeat;
   }
