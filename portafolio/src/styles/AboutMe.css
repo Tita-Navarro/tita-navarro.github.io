@@ -21,7 +21,7 @@
     width: auto;
 }   
 .About-text{
-    margin-right:500px;
+    margin-right:965px;
 }
 .About-info{
     color: #ffffff;
@@ -32,7 +32,7 @@
     text-align: center;
 }
 .resp_photo:hover{
-    width:20rem;
+    width:24rem;
     border:solid 6px rgba(95, 4, 117, 0.678);
     border-radius: 50%;
 }
@@ -68,7 +68,7 @@
         
     }
     .resp_photo{
-        width:18rem;
+        width:22rem;
 
     }
     .About-iconskill{
