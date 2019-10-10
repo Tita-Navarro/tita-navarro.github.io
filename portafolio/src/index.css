@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap');
 * {
   
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', 'Big Shoulders Text' sans-serif;
 }
-
+body{
+    background:linear-gradient(150deg, rgb(2, 49, 119), rgb(51, 87, 245));
+}
 .carousel-control-prev {
     left: 7rem!important;
 }

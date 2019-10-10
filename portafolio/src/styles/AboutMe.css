@@ -1,29 +1,46 @@
-.About-container{
-    background: rgba(0,0,0,0.75);
+.About{
+    /*background:linear-gradient(20deg, rgb(4,48,114), rgb(3, 69, 168));*/
+    width:150rem;
+    margin:0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text2{
+    text-align: justify;
 }
 .About-skill{
     margin-bottom: 0.5rem;
 }   
 .About-info{
     color: #ffffff;
-}
-.title{
-    text-align: center;
+    margin-top:1rem;
+    font-family: 'Big Shoulders Text';
 }
 .tech{
     text-align: center;
 }
-.About-video{
-    color: #ffffff;
-    text-align: center;
+.resp_photo:hover{
+    width:20rem;
+    border:solid 6px rgba(95, 4, 117, 0.678);
+    border-radius: 50%;
 }
-.photo-modal{
-    width: 13rem;
-    height: 18rem;
+.container-fluid{
+    padding-right: 0!important;
+    padding-left:1px!important;
+}
+.About-container{
+    margin-top: 3.5rem;
+}
+.soft{
+    font-size: 2rem;
 }
 @media screen and (min-width: 64rem){
     .About{
-        background-image: url(../images/mickey-background.jpg);
+        margin:0;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -32,52 +49,39 @@
         background-position: center;
     }
     .About-container{
-        height: 67rem;
-        width: 92.1rem;
-        margin-left: -1rem;
-        margin-bottom: 0.5rem;
+        height:52rem;
+        width: 100%;
+        margin-left: 0;
         text-align: center;
-    }
-    .name-alias{
-        font-size:2rem;
-        font-weight: 700;
-        color: rgba(42, 142, 236, 0.75)
-    }
-    .about-cast{
-        width:25rem;
+        
     }
     .resp_photo{
-        width:23rem;
+        width:18rem;
 
     }
     .About-iconskill{
         font-size: 3rem;
         margin-right: 4rem;
     }
-    
     .icon-color{
         color:#ffffff;
     }
-    
+    .name{
+        font-size:3rem;
+        font-weight: 700;
+    }
+    .name:hover{
+        color:rgba(105, 230, 241, 0.952);
+        font-size: 4rem;
+    }
     .icon-move{
         margin-left: 4rem;
     }
-    .About-Skills{
-        background: rgba(0,0,0,0.25);
-    }
 }
 @media screen and (min-width: 41rem) and (max-width:64rem){
-    .About{
-        background: url(../images/mickey_bgipad.jpg) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        }
     .About-container{
         height: 67rem;
         width: 88.1rem;
-        margin-left: -1rem;
         }
     .title{
         font-size: 2rem!important;
@@ -89,11 +93,6 @@
     .About-info{
         font-size: 1.4rem;
         margin-left: -3rem;
-    }
-    .video-player{
-        width: 18rem!important;
-        height: 14rem!important;
-        margin-left: -10rem;
     }
     .resp_photo{
         margin-left: -2rem!important;
@@ -111,6 +110,7 @@
     }
     .About-soft{
         margin-left: -8rem!important;
+        font-size:3rem;
     }
     .About-container-icon{
         margin-left: 4rem;
@@ -124,13 +124,6 @@
 
 
 @media screen and (max-width:40rem){
-    .About{
-        background-image: url(../images/mickey_bgcellphone.png);
-        margin:0;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
     .name-alias{
         font-size: 1.5rem;
         text-align: center;
@@ -148,9 +141,6 @@
     }
     .about-cast{
         margin-top:3rem;
-    }
-    .photo-modal{
-        margin-left:3rem!important;
     }
 }
 

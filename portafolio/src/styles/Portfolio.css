@@ -1,10 +1,16 @@
-.Portfolio-container {
-  background: rgba(0, 0, 0, 0.75);
-  height: 80rem;
-}
+.Portfolio {
+    margin:0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 .text {
   font-weight: 400;
   text-align: center !important;
+  
 }
 .Portfolio-title {
   color: #ffffff;
@@ -41,42 +47,32 @@
 
 @media screen and (min-width: 64rem) {
   .Portfolio {
-    background-image: url(../images/mickey-background3.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 90rem;
   }
   .Portfolio-desc {
     font-size: 4rem;
     font-weight: bold;
   }
   .Portfolio-container {
-    height: 80rem;
-    width: 92rem;
     margin: 0;
-    margin-bottom: 0.5rem;
   }
   .socialnetwork-info {
     font-size: 0.75rem;
   }
 }
 @media screen and (max-width: 64rem) {
-  .Portfolio {
-    background-image: url(../images/mickey_bgipad3.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+.Portfolio-container{
+  height: 100%;
+  
+} 
 }
 
 @media screen and (max-width: 40rem) {
   .Portfolio {
-    background-image: url(../images/mickey_bgcellphone3.png);
     background-size: cover;
     background-repeat: no-repeat;
   }

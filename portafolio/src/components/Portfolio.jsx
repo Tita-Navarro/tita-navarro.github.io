@@ -6,7 +6,7 @@ const Portfolio = () => {
     <div id="Portfolio" className="Portfolio">
       <div className="Portfolio-container">
         <div className="Portfolio-info row">
-          <br />
+          <br /><br/>
         </div>
           <h4 className='Portfolio-projectsTitle'>Projects</h4>
         <div className="bd-example Portfolio-size col-md">

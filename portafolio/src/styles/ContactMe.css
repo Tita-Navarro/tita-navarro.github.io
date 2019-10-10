@@ -1,10 +1,13 @@
 @media screen and (min-width: 64rem) {
   .ContactMe {
-    background-image: url(../images/mickey-background5.jpg);
+    /*background:linear-gradient(20deg, rgb(4,48,114), rgb(3, 69, 168));*/
+    margin:0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 65rem;
-    width: 92rem;
+    background-position: center;
   }
   .ContactMe-container {
     height: 65rem;
@@ -45,9 +48,6 @@
 .ContactMe-title {
     color: #ffffff;
     text-align: center;
-}
-.ContactMe-container {
-    background: rgba(0, 0, 0, 0.75);
 }
 .display-icon{
     display:inline-flex;

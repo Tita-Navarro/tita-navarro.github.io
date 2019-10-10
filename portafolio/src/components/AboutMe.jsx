@@ -1,27 +1,13 @@
 import React from "react";
 import "../styles/AboutMe.css";
 import "../styles/style.css";
-import ReactPlayer from "react-player";
 
 const AboutMe = () => {
   return (
     <div id="AboutMe" className="About container-fluid">
       <div className="About-container">
-        <div className="About-brand">
-          <br /> <br /> <br /> <br />
-          <img
-            src={require("../images/Castelnav.png")}
-            alt="brand"
-            className="mx-auto d-block 
-                    img-fluid resp_img about-cast"
-          />
-          <h2 className="About-info title">- FrontEnd UX -</h2>
-        </div>
-        <br />
-        <div>
-          <h4 className="About-info name-alias">Martha M. Navarro "Tita"</h4>
-        </div>
         <div className="container-fluid AboutMe">
+          <br/><br/><br/>
           <div className="row">
             <div className="col-sm">
               <img
@@ -30,59 +16,26 @@ const AboutMe = () => {
                 className="mx-auto img-fluid 
                             resp_photo"
               />
-            </div>
+  </div>
             <div className="col-sm">
-              <a href="#exampleModal" data-toggle="modal" data-target="#exampleModal">
-                <h3 className="About-video">About Me</h3>{" "}
-              </a>
-              <div
-                className="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                role="dialog"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div className="modal-dialog" role="document">
-                  <div className="modal-content">
-                    <div className="modal-header">
-                      <h5 className="modal-title" id="exampleModalLabel">
-                        Something about me
-                      </h5>
-                      <button
-                        type="button"
-                        className="close"
-                        data-dismiss="modal"
-                        aria-label="Close"
-                      >
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div className="modal-body"><h5>Hello, I am a FrontEnd Dev and Digital
-                    Marketer. I am a passionate, friendly and lovely woman. I love to be 
-                    happy, optimism and I believe if we work in team we would have the
-                    best results. </h5>
-                    <h5>Do you want to know more about me? Contact Me!</h5>
-                    <img src={require("../images/modal-photo.jpg")} alt="modal-img" 
-                    className='photo-modal'/>
-                   </div>
-                  </div>
+                <h5 className="About-info text2">Hello, my name is</h5>
+                <h1 className="About-info text2 name">Martha Navarro</h1>
+                <h3 className='About-info text2'>I love to learn and build 
+                experiences on web.</h3>
+                <h4 className="About-info text2">I am a FrontEnd Developer 
+                with a background in Digital Marketing in Guadalajara,MX. 
+                <br/> I worked 
+                with HTML, CSS, Javascript, Bootstrap and React.<br/>
+                You could send an e-mail: tita1089@gmail. I'll answer as
+                soon as possible.</h4>
                 </div>
               </div>
-              <ReactPlayer
-                url="https://www.youtube.com/watch?v=ElpsGgjewlQ"
-                className="react-player video-player"
-                playing
-                width="30rem"
-                height="18rem"
-              />
             </div>
-          </div>
           <br />
           <div className="About-Skills container">
             <div className="row">
               <div className="col-md About-container-icon">
-                <h2 className="About-info soft About-soft">Soft Skills</h2>
+                <h1 className="About-info About-soft">Soft Skills</h1>
                 <h5 className="About-info soft">Teamwork</h5>
                 <h5 className="About-info soft">Responsability</h5>
                 <h5 className="About-info soft">Self-learning</h5>
@@ -91,26 +44,23 @@ const AboutMe = () => {
                 <h5 className="About-info soft">Leadership</h5>
               </div>
               <div className="col-md About-container-icon">
-                <h2 className="About-info tech">Technical Skills</h2>
+                <h1 className="About-info tech">Technical Skills</h1>
                 <span className="devicon-javascript-plain colored About-iconskill" />
                 <span className="icon-html5 About-iconskill" />
                 <span className="icon-css31 About-iconskill" />
                 <span className="icon-bootstrap About-iconskill" />
                 <span className="devicon-react-original-wordmark colored About-iconskill" />
-                <span className="devicon-photoshop-line colored About-iconskill" />
                 <br /> <br />
                 <span className="icon-figma About-iconskill icon-move" />
                 <span className="icon-react About-iconskill" />
                 <span className="devicon-nodejs-plain colored About-iconskill" />
                 <span className="icon-git1 About-iconskill" />
                 <span className="icon-github1 About-iconskill icon-color" />
-                <span className="devicon-trello-plain colored About-iconskill" />
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

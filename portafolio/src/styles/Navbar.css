@@ -1,5 +1,5 @@
 .home-img{
-    width:6rem;
+    width:6.5rem;
 }
 
 .navbar-static{
@@ -8,7 +8,18 @@
     z-index: 100;
     top: 0;
 }
+.separation{
+    margin-left: 970px;
+}
+.bg-dark2{
+    background:linear-gradient(150deg, rgb(2, 49, 119), rgb(51, 87, 245))!important;
+}
+.img-fluid{
+    margin-left:15px!important;
+}
 
-nav{
-    margin-left:-1rem;
+@media screen and (max-width:40rem){
+    .separation{
+        margin-left: 0;
+    }
 }
