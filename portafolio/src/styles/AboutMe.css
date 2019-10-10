@@ -149,7 +149,7 @@
     }
     .text2{
         margin-left: 10px;
-        font-size: 12px;
+        font-size: auto;
     }
     .About-soft{
         text-align: center;
@@ -157,6 +157,7 @@
     .resp_photo{
         width:16rem;
         display: flex;
+        margin-right:3rem;
     }
     .name{
         font-size: 1.5rem;
