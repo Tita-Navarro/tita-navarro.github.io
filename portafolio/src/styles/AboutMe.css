@@ -28,9 +28,6 @@
     margin-top:1rem;
     font-family: 'Big Shoulders Text';
 }
-.tech{
-    text-align: center;
-}
 .resp_photo:hover{
     width:24rem;
     border:solid 6px rgba(95, 4, 117, 0.678);
@@ -152,13 +149,17 @@
     }
     .text2{
         margin-left: 10px;
+        font-size: 12px;
     }
     .About-soft{
         text-align: center;
     }
     .resp_photo{
         width:16rem;
-        display: block;
+        display: flex;
+    }
+    .name{
+        font-size: 1.5rem;
     }
 }
 
