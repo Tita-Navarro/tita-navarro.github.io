@@ -1,0 +1,82 @@
+.Skills{
+    margin-top: 3rem;
+}
+
+.soft-skill{
+    color: #fff;
+    font-size: 2.5rem;
+    list-style: none;
+    text-align: center;
+    font-family:'Big Shoulders Text';
+}
+.separation2{
+    margin-top:2.5rem;
+}
+.tech-name{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    text-align: center;
+    font-family:'Big Shoulders Text';
+}
+.name-mov{
+    margin-left:4rem;
+}
+.name-mov2{
+    margin-left:2.5rem;
+}
+.tech-skill{
+    font-size:4rem;
+    margin-right: 3rem;
+}
+.tech-skill{
+    font-size:4rem;
+    margin-right: 3rem;
+}
+.skill-title{
+    text-align: center;
+    color:#fff;
+    font-size:3rem;
+    font-family:'Big Shoulders Text';
+    font-weight: 700;
+}
+
+@media screen and(min-width:64rem){
+    
+}
+
+@media screen and (min-width:41rem) and (max-width:63rem){
+
+}
+@media screen and(max-width:40rem){
+    .skill-title{
+        text-align: center;
+        color:#fff;
+        font-size:2rem;
+        font-family:'Big Shoulders Text';
+        font-weight: 700;
+    }
+    .tech-skill{
+        font-size:2rem;
+        margin-right: 1.5rem;
+    }
+    .soft-skill{
+        color: #fff;
+        font-size: 1.25rem;
+        list-style: none;
+        text-align: center;
+    }
+    .tech-name{
+        color: #fff;
+        font-size: 1rem;
+        margin-left: 10px;
+        text-align: center;
+        font-family:'Big Shoulders Text';
+    }
+    .name-mov{
+        margin-left:2rem;
+    }
+    .name-mov2{
+        margin-left:1.25rem;
+    }
+}

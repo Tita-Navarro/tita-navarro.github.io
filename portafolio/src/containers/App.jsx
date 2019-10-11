@@ -1,18 +1,20 @@
 import React from 'react';
-import Main from '../components/Main';
+import '../containers/App.css';
+import AboutMe from '../sections/AboutMe';
+import Portfolio from '../sections/Portfolio';
+import ContactMe from '../sections/ContactMe';
 import Navbar from '../components/Navbar';
-import AboutMe from '../components/AboutMe';
-import Portfolio from '../components/Portfolio';
-import ContactMe from '../components/ContactMe';
+import Main from './Main';
 
-const App=()=>{
+const App = () =>{
   return(
     <Main>
-      <Navbar />
-      <AboutMe />
+      <Navbar/>
+      <AboutMe/>
       <Portfolio />
       <ContactMe />
     </Main>
   )
-};
+}
+
 export default App;

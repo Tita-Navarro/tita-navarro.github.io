@@ -1,0 +1,91 @@
+.Info-container{
+    margin-top: 3rem;
+}
+.resp-photo{
+    width:22rem;
+    display:block;
+}
+.presentation{
+    color:#ffffff;
+    font-family: 'Big Shoulders Text';
+    text-align: left;
+}
+.br-div:hover{
+    border: solid 1px gray;
+}
+.h5size{
+    font-size:1.5rem;
+}
+.h1size{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.h3size{
+    font-size:2.5rem;
+    font-style: italic;
+    font-weight: 600;
+    color:aquamarine;
+}
+.h4size{
+    font-size: 2rem;
+}
+@media screen and (min-width: 64rem){
+    .Info{
+    margin:0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    .resp-photo:hover{
+        width:24rem;
+        border-radius: 50%;
+        border: solid 6px rgba(97, 5, 139,0.7);
+    }
+    .h1size:hover{
+        font-size: 4rem;
+        color: rgba(61, 238, 238, 0.849);
+        
+    }
+}
+@media screen and (min-width:41rem) and (max-width:63rem){
+    .resp-photo{
+        width:18rem;
+    }
+    .resp-photo:hover{
+        width:20rem;
+        border-radius:50%;
+        border: solid 6px rgba(97, 5, 139,0.7);
+    }
+}
+@media screen and (max-width:40rem){
+    .resp-photo{
+        width:14rem;
+    }
+    .resp-photo:hover{
+        width:17rem;
+        border-radius: 50%;
+        border: solid 6px rgba(97, 5, 139,0.7);
+    }
+    .h5size{
+        font-size:1rem;
+    }
+    .h1size{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .h1size:hover{
+        font-size: 3rem;
+        color: rgba(61, 238, 238, 0.849);
+    }
+    .h3size{
+        font-size:1.8rem;
+        font-style: italic;
+        font-weight: 600;
+    }
+    .h4size{
+        font-size: 1.3rem;
+    }
+}
