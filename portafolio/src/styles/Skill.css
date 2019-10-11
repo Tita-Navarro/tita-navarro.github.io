@@ -1,0 +1,69 @@
+@media screen and (max-width:480px){
+.skill-title{
+    font-size:2rem;
+}
+.soft-skill{
+    font-size:1.5rem;
+    margin-right: 2.5rem;
+}
+.tech-skill{
+    font-size:2rem;
+    margin-right: 1.3rem;
+}
+.tech-name{
+    font-size:1rem;
+}
+.name-mov{
+    margin-left:0.9rem!important;
+}
+.b-name{
+    margin-left:-15px!important;
+}
+.name-mov2{
+    margin-left: 1.4rem !important;
+}
+}
+@media screen and (min-width:1024px){
+    .skill-title{
+        font-size: 3rem;
+    }
+    .soft-skill{
+        font-size: 2rem;
+    }
+    .tech-skill{
+        font-size:4rem;
+        margin-right:3rem;
+    }
+    .tech-name{
+        font-size:1.5rem;
+    }
+    .name-mov{
+        margin-left:4rem!important;
+    }
+    .name-mov2{
+        margin-left:2.5rem!important;
+    }
+}
+@media screen and (min-width:481px) and (max-width:1023px){
+
+}
+
+.Skills{
+    margin-top: 3rem;
+}
+.skill-title{
+    color: #fff;
+    text-align: center;
+    font-family: 'Big Shoulders Text';
+}
+.soft-skill{
+    color: #fff;
+    text-align: center;
+    font-family: 'Big Shoulders Text';
+    list-style: none;
+}
+.tech-name{
+    color:#fff;
+    font-family: 'Big Shoulders Text';
+    margin-left:10px; 
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Skills.css';
+import '../styles/Skill.css';
 
 const Skills =()=>{
     return(
@@ -37,7 +37,7 @@ const Skills =()=>{
                 <i className="devicon-atom-original colored tech-skill"/>
                 <i className="devicon-intellij-plain tech-skill"/>
                 <i className="devicon-mongodb-plain colored tech-skill"/><br/>
-                <span className='tech-name'>Bootstrap</span>
+                <span className='tech-name b-name'>Bootstrap</span>
                 <span className='tech-name name-mov2'>Node</span>
                 <span className='tech-name name-mov'>ReactJs</span>
                 <span className='tech-name name-mov'>Atom</span>
