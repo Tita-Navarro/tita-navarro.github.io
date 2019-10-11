@@ -3,7 +3,7 @@ import '../styles/Skills.css';
 
 const Skills =()=>{
     return(
-        <div className='Skills'>
+        <div className='Skills container-fluid'>
         <section className='Skills-container container-fluid'>
             <h2 className='skill-title'>Skills</h2>
             <div className='row separation2'>
