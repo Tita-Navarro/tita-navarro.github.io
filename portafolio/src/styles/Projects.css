@@ -4,10 +4,10 @@
     color: #ffffff;
     font-family: 'Source Sans Pro';
 }
-.project-img{
+/*.project-img{
     width: 1048px!important;
 }
-
+*/
 @media screen and (max-width:480px){
     .w-100{
         width: 50%!important;
