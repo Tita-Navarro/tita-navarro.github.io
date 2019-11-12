@@ -11,7 +11,7 @@
     margin-right: 1.3rem;
 }
 .tech-name{
-    font-size:1rem;
+    font-size:13px;
 }
 .name-mov{
     margin-left:0.9rem!important;
@@ -38,10 +38,10 @@
         font-size:1.5rem;
     }
     .name-mov{
-        margin-left:4rem!important;
+        margin-left:3rem!important;
     }
     .name-mov2{
-        margin-left:2.5rem!important;
+        margin-left:1.8rem!important;
     }
 }
 @media screen and (min-width:481px) and (max-width:1023px){
@@ -54,16 +54,16 @@
 .skill-title{
     color: #fff;
     text-align: center;
-    font-family: 'Big Shoulders Text';
+    font-family: 'Source Sans Pro';
 }
 .soft-skill{
     color: #fff;
     text-align: center;
-    font-family: 'Big Shoulders Text';
+    font-family: 'Source Sans Pro';
     list-style: none;
 }
 .tech-name{
     color:#fff;
-    font-family: 'Big Shoulders Text';
+    font-family: 'Source Sans Pro';
     margin-left:10px; 
 }

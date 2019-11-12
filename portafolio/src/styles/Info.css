@@ -1,5 +1,5 @@
 .Info-container{
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 .resp-photo{
     width:22rem;
@@ -7,28 +7,36 @@
 }
 .presentation{
     color:#ffffff;
-    font-family: 'Big Shoulders Text';
+    font-family: 'Source Sans Pro';
     text-align: left;
+}
+.c-email{
+    font-size:1.2rem;
+}
+.btn-sp{
+    margin-left: 15px!important;
 }
 .br-div:hover{
     border: solid 1px gray;
 }
 .h5size{
-    font-size:1.5rem;
+    font-size:1.2rem;
 }
 .h1size{
     font-size: 3rem;
     font-weight: 700;
 }
 .h3size{
-    font-size:2.5rem;
+    font-size:2.2rem;
     font-style: italic;
     font-weight: 600;
     color:aquamarine;
 }
 .h4size{
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
+
+
 @media screen and (min-width: 64rem){
     .Info{
     margin:0;
@@ -70,22 +78,25 @@
         border: solid 6px rgba(97, 5, 139,0.7);
     }
     .h5size{
-        font-size:1rem;
+        font-size:14px;
     }
     .h1size{
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-weight: 700;
     }
     .h1size:hover{
-        font-size: 3rem;
+        font-size: 2.7rem;
         color: rgba(61, 238, 238, 0.849);
     }
     .h3size{
-        font-size:1.8rem;
+        font-size:1.5rem;
         font-style: italic;
         font-weight: 600;
     }
     .h4size{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
+    }
+    .c-email{
+        font-size:14px;
     }
 }

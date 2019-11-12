@@ -1,6 +1,5 @@
 import React from 'react';
 import Projects from '../components/Projects';
-import Prototypes from '../components/Prototypes';
 import '../styles/Portfolio.css';
 
 const Portfolio = () =>{
@@ -8,7 +7,7 @@ const Portfolio = () =>{
         <section className='Portfolio'>
             <div id="Portfolio" className='Portfolio-container'>
                 <Projects />
-                <Prototypes />
+                
             </div>
         </section>
     )

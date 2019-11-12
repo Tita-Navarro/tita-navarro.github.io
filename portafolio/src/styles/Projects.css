@@ -1,0 +1,22 @@
+.Projects-title{
+    margin-top: 1rem;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Source Sans Pro';
+}
+
+.project-img{
+    width: 950px!important;
+}
+.w-100{
+    width:980px!important;
+}
+
+@media screen and (max-width:480px){
+    .w-100{
+        width: 50%!important;
+    }
+    .Projects-title{
+        font-size:1.5rem;
+    }
+}

@@ -1,10 +1,12 @@
 import React from 'react';
 import '../styles/Info.css';
+import {AwesomeButtonProgress} from 'react-awesome-button';
+import 'react-awesome-button/dist/themes/theme-blue.css';
 
 const Info =()=>{
     return(
         <div className='Info container-fluid'>
-            <br/><br/><br/>
+            <br/><br/>
         <section className='Info-container container-fluid'>
             <div className='row'>
                 <div className='col-sm'>
@@ -21,8 +23,12 @@ const Info =()=>{
                     Developer with a background in Digital Marketing
                     based in Guadalajara, MX. <br/> I worked with HTML5,
                     CSS3, Javascript, Bootstrap and React. <br/>
-                    Let's keep in touch. You could send an e-mail:
-                        tita1089@gmail.com<br/> I'll answer as soon as 
+                    Let's keep in touch. You could send an 
+                    <AwesomeButtonProgress type='secondary' size='small'
+                    className='btn-sp'>
+                        <a href='mailto:tita1089@gmail.com'className='c-email'>Email</a>
+                    </AwesomeButtonProgress>
+                        <br/> I'll answer as soon as 
                         possible. </h4>
                 </div>
             </div>
