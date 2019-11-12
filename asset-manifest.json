@@ -1,25 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.17ecfae1.chunk.css",
-    "main.js": "/static/js/main.7642102b.chunk.js",
-    "main.js.map": "/static/js/main.7642102b.chunk.js.map",
+    "main.css": "/static/css/main.61dcab39.chunk.css",
+    "main.js": "/static/js/main.0b3c94c1.chunk.js",
+    "main.js.map": "/static/js/main.0b3c94c1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7b226454.js",
     "runtime-main.js.map": "/static/js/runtime-main.7b226454.js.map",
-    "static/css/2.510409cd.chunk.css": "/static/css/2.510409cd.chunk.css",
-    "static/js/2.8deeffff.chunk.js": "/static/js/2.8deeffff.chunk.js",
-    "static/js/2.8deeffff.chunk.js.map": "/static/js/2.8deeffff.chunk.js.map",
+    "static/css/2.fbab7a3d.chunk.css": "/static/css/2.fbab7a3d.chunk.css",
+    "static/js/2.baa717ef.chunk.js": "/static/js/2.baa717ef.chunk.js",
+    "static/js/2.baa717ef.chunk.js.map": "/static/js/2.baa717ef.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d9746931d1c294a6bbd02b56a08601ea.js": "/precache-manifest.d9746931d1c294a6bbd02b56a08601ea.js",
+    "precache-manifest.5f47803f19c8c7e99604caff2fa458d9.js": "/precache-manifest.5f47803f19c8c7e99604caff2fa458d9.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.510409cd.chunk.css.map": "/static/css/2.510409cd.chunk.css.map",
-    "static/css/main.17ecfae1.chunk.css.map": "/static/css/main.17ecfae1.chunk.css.map",
+    "static/css/2.fbab7a3d.chunk.css.map": "/static/css/2.fbab7a3d.chunk.css.map",
+    "static/css/main.61dcab39.chunk.css.map": "/static/css/main.61dcab39.chunk.css.map",
+    "static/media/Organa.png": "/static/media/Organa.b215aba5.png",
+    "static/media/galaxy-craft.png": "/static/media/galaxy-craft.6ff17583.png",
+    "static/media/mundo_dulce.png": "/static/media/mundo_dulce.4b68a4a2.png",
+    "static/media/pokemon_go.png": "/static/media/pokemon_go.e65edb1f.png",
+    "static/media/recetas.png": "/static/media/recetas.3febcdcf.png",
+    "static/media/segura.png": "/static/media/segura.d37dab02.png",
     "static/media/tita_color.png": "/static/media/tita_color.fe3237ee.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7b226454.js",
-    "static/css/2.510409cd.chunk.css",
-    "static/js/2.8deeffff.chunk.js",
-    "static/css/main.17ecfae1.chunk.css",
-    "static/js/main.7642102b.chunk.js"
+    "static/css/2.fbab7a3d.chunk.css",
+    "static/js/2.baa717ef.chunk.js",
+    "static/css/main.61dcab39.chunk.css",
+    "static/js/main.0b3c94c1.chunk.js"
   ]
 }
