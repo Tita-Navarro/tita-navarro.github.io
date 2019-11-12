@@ -4,12 +4,8 @@
     color: #ffffff;
     font-family: 'Source Sans Pro';
 }
-
 .project-img{
-    width: 950px!important;
-}
-.w-100{
-    width:980px!important;
+    width: 1048px!important;
 }
 
 @media screen and (max-width:480px){
