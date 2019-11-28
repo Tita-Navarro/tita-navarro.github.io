@@ -1,3 +1,6 @@
+body{
+    margin:0;
+}
 .home-img{
     width:6.5rem;
 }
@@ -12,7 +15,7 @@
     margin-left: 800px;
 }
 .bg-dark2{
-    background:linear-gradient(150deg, rgb(2, 49, 119), rgb(51, 87, 245))!important;
+    background:linear-gradient(100deg, rgb(2, 49, 119), rgb(51, 87, 245))!important;
 }
 .img-fluid{
     margin-left:15px!important;

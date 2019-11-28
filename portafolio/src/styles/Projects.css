@@ -4,15 +4,22 @@
     color: #ffffff;
     font-family: 'Source Sans Pro';
 }
+.c-email{
+    font-size:1.1rem;
+}
+
+.btn-sp2{
+    margin-left: 15px!important
+}
 /*.project-img{
     width: 1048px!important;
 }
 */
 @media screen and (max-width:480px){
-    .w-100{
-        width: 50%!important;
-    }
     .Projects-title{
         font-size:1.5rem;
+    }
+    .c-email{
+        font-size:14px;
     }
 }

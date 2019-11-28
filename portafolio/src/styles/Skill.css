@@ -51,6 +51,9 @@
 .Skills{
     margin-top: 3rem;
 }
+.Skills-container{
+    margin:0;
+}
 .skill-title{
     color: #fff;
     text-align: center;
