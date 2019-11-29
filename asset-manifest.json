@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d5543a4.chunk.css",
-    "main.js": "/static/js/main.0b3c94c1.chunk.js",
-    "main.js.map": "/static/js/main.0b3c94c1.chunk.js.map",
+    "main.css": "/static/css/main.32f1f073.chunk.css",
+    "main.js": "/static/js/main.840882e1.chunk.js",
+    "main.js.map": "/static/js/main.840882e1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7b226454.js",
     "runtime-main.js.map": "/static/js/runtime-main.7b226454.js.map",
     "static/css/2.fbab7a3d.chunk.css": "/static/css/2.fbab7a3d.chunk.css",
-    "static/js/2.baa717ef.chunk.js": "/static/js/2.baa717ef.chunk.js",
-    "static/js/2.baa717ef.chunk.js.map": "/static/js/2.baa717ef.chunk.js.map",
+    "static/js/2.a27e95c3.chunk.js": "/static/js/2.a27e95c3.chunk.js",
+    "static/js/2.a27e95c3.chunk.js.map": "/static/js/2.a27e95c3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8e4cdfe4d9515fafe4aaa0d173b76d87.js": "/precache-manifest.8e4cdfe4d9515fafe4aaa0d173b76d87.js",
+    "precache-manifest.f34ac623dad845d1d44b31474a5d6c9d.js": "/precache-manifest.f34ac623dad845d1d44b31474a5d6c9d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.fbab7a3d.chunk.css.map": "/static/css/2.fbab7a3d.chunk.css.map",
-    "static/css/main.7d5543a4.chunk.css.map": "/static/css/main.7d5543a4.chunk.css.map",
-    "static/media/Organa.png": "/static/media/Organa.b215aba5.png",
-    "static/media/galaxy-craft.png": "/static/media/galaxy-craft.6ff17583.png",
-    "static/media/mundo_dulce.png": "/static/media/mundo_dulce.4b68a4a2.png",
-    "static/media/pokemon_go.png": "/static/media/pokemon_go.e65edb1f.png",
-    "static/media/recetas.png": "/static/media/recetas.3febcdcf.png",
-    "static/media/segura.png": "/static/media/segura.d37dab02.png",
+    "static/css/main.32f1f073.chunk.css.map": "/static/css/main.32f1f073.chunk.css.map",
+    "static/media/Organa.png": "/static/media/Organa.435bf36e.png",
+    "static/media/galaxy-craft.png": "/static/media/galaxy-craft.2486221c.png",
+    "static/media/mundo_dulce.png": "/static/media/mundo_dulce.7b4c990b.png",
+    "static/media/pokemon_go.png": "/static/media/pokemon_go.7cc7692f.png",
+    "static/media/recetas.png": "/static/media/recetas.08078ad4.png",
+    "static/media/segura.png": "/static/media/segura.9105190b.png",
     "static/media/tita_color.png": "/static/media/tita_color.fe3237ee.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7b226454.js",
     "static/css/2.fbab7a3d.chunk.css",
-    "static/js/2.baa717ef.chunk.js",
-    "static/css/main.7d5543a4.chunk.css",
-    "static/js/main.0b3c94c1.chunk.js"
+    "static/js/2.a27e95c3.chunk.js",
+    "static/css/main.32f1f073.chunk.css",
+    "static/js/main.840882e1.chunk.js"
   ]
 }
