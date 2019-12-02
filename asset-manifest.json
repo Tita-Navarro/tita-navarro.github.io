@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.32f1f073.chunk.css",
-    "main.js": "/static/js/main.840882e1.chunk.js",
-    "main.js.map": "/static/js/main.840882e1.chunk.js.map",
+    "main.css": "/static/css/main.aef3bcaf.chunk.css",
+    "main.js": "/static/js/main.3b680538.chunk.js",
+    "main.js.map": "/static/js/main.3b680538.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7b226454.js",
     "runtime-main.js.map": "/static/js/runtime-main.7b226454.js.map",
-    "static/css/2.fbab7a3d.chunk.css": "/static/css/2.fbab7a3d.chunk.css",
-    "static/js/2.a27e95c3.chunk.js": "/static/js/2.a27e95c3.chunk.js",
-    "static/js/2.a27e95c3.chunk.js.map": "/static/js/2.a27e95c3.chunk.js.map",
+    "static/css/2.316c4c90.chunk.css": "/static/css/2.316c4c90.chunk.css",
+    "static/js/2.0f192c6b.chunk.js": "/static/js/2.0f192c6b.chunk.js",
+    "static/js/2.0f192c6b.chunk.js.map": "/static/js/2.0f192c6b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f34ac623dad845d1d44b31474a5d6c9d.js": "/precache-manifest.f34ac623dad845d1d44b31474a5d6c9d.js",
+    "precache-manifest.1481ab53644df53b7671fb92d048132e.js": "/precache-manifest.1481ab53644df53b7671fb92d048132e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.fbab7a3d.chunk.css.map": "/static/css/2.fbab7a3d.chunk.css.map",
-    "static/css/main.32f1f073.chunk.css.map": "/static/css/main.32f1f073.chunk.css.map",
+    "static/css/2.316c4c90.chunk.css.map": "/static/css/2.316c4c90.chunk.css.map",
+    "static/css/main.aef3bcaf.chunk.css.map": "/static/css/main.aef3bcaf.chunk.css.map",
     "static/media/Organa.png": "/static/media/Organa.435bf36e.png",
     "static/media/galaxy-craft.png": "/static/media/galaxy-craft.2486221c.png",
+    "static/media/style.css": "/static/media/icomoon.cad8b427.woff",
     "static/media/mundo_dulce.png": "/static/media/mundo_dulce.7b4c990b.png",
     "static/media/pokemon_go.png": "/static/media/pokemon_go.7cc7692f.png",
     "static/media/recetas.png": "/static/media/recetas.08078ad4.png",
@@ -23,9 +24,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7b226454.js",
-    "static/css/2.fbab7a3d.chunk.css",
-    "static/js/2.a27e95c3.chunk.js",
-    "static/css/main.32f1f073.chunk.css",
-    "static/js/main.840882e1.chunk.js"
+    "static/css/2.316c4c90.chunk.css",
+    "static/js/2.0f192c6b.chunk.js",
+    "static/css/main.aef3bcaf.chunk.css",
+    "static/js/main.3b680538.chunk.js"
   ]
 }
