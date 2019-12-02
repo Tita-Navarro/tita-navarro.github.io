@@ -1,0 +1,12 @@
+.ContactForm-container{
+    display:flex;
+}
+.contact-subtitle{
+    color: #fff;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+.contact-title{
+    color: #fff;
+    font-weight: 500;
+}

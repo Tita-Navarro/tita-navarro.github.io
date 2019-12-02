@@ -163,7 +163,7 @@ const Projects = () => {
               <div className="carousel-caption d-none d-sm-block">
               <AwesomeButtonProgress
                   type="secondary"
-                  size="medium"
+                  size="small"
                   className="btn-sp2"
                 >
                   <a
@@ -185,7 +185,7 @@ const Projects = () => {
               <div className="carousel-caption d-none d-sm-block">
               <AwesomeButtonProgress
                   type="secondary"
-                  size="medium"
+                  size="small"
                   className="btn-sp2"
                 >
                   <a
